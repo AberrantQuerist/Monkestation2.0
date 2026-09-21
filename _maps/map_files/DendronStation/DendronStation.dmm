@@ -1,45 +1,40 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ah" = (
-/obj/structure/table/wood,
-/obj/item/camera_film{
-	pixel_x = -3;
-	pixel_y = 5
+"aw" = (
+/obj/machinery/button/crematorium{
+	id = "crematoriumChapel";
+	pixel_x = -26
 	},
-/obj/item/camera_film{
-	pixel_y = 9
+/obj/structure/bodycontainer/crematorium{
+	dir = 4;
+	id = "crematoriumChapel"
 	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"ay" = (
-/obj/structure/table,
-/obj/item/storage/box/lights/mixed{
-	pixel_x = 6;
-	pixel_y = 8
-	},
-/obj/item/storage/box/lights/mixed{
-	pixel_x = -2;
-	pixel_y = 3
-	},
-/obj/item/clothing/gloves/color/purple,
-/obj/item/clothing/gloves/color/orange{
-	pixel_x = 4;
-	pixel_y = -2
-	},
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
 "az" = (
 /turf/open/space/openspace,
 /area/space)
 "aA" = (
 /turf/open/space/openspace,
 /area/station/service/kitchen)
-"aD" = (
-/turf/open/floor/iron/chapel,
-/area/station/service/chapel)
-"bd" = (
-/obj/structure/bookcase/random/fiction,
+"aS" = (
+/obj/structure/sign/painting/library{
+	pixel_y = 32
+	},
+/obj/machinery/photocopier,
 /turf/open/floor/wood,
 /area/station/service/library)
+"aT" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/iron/vaporwave,
+/area/station/service/library/private)
+"bj" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 10
+	},
+/area/station/service/chapel)
 "bn" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/door/airlock/glass{
@@ -51,36 +46,41 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/bar/backroom)
-"bq" = (
-/obj/structure/table/wood,
-/obj/item/food/grown/poppy/geranium{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/food/grown/poppy/lily,
-/turf/open/floor/carpet/royalblack,
-/area/station/service/chapel/office)
-"bE" = (
-/obj/machinery/door/morgue{
-	name = "Confession Booth"
-	},
-/turf/open/floor/iron/dark,
-/area/station/service/chapel)
-"bI" = (
-/obj/machinery/libraryscanner,
+"bp" = (
+/obj/item/kirbyplants/organic/plant18,
 /turf/open/floor/wood,
 /area/station/service/library)
+"bq" = (
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
 "bS" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
 	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
-"ch" = (
-/turf/open/floor/iron/chapel{
-	dir = 8
+"ca" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"cg" = (
+/obj/structure/bed{
+	dir = 4
 	},
-/area/station/service/chapel)
+/obj/item/bedsheet/black{
+	dir = 4
+	},
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"ch" = (
+/obj/effect/landmark/start/librarian,
+/turf/open/floor/wood,
+/area/station/service/library)
+"cq" = (
+/obj/structure/table/wood,
+/obj/item/book/bible,
+/turf/open/floor/carpet,
+/area/station/service/chapel/office)
 "cr" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -92,29 +92,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/bar)
-"cv" = (
-/obj/structure/sign/plaques/kiddie/badger{
-	pixel_y = 32
-	},
-/obj/item/food/grown/poppy{
-	pixel_y = 2
-	},
-/obj/item/food/grown/poppy{
-	pixel_y = 2
-	},
-/obj/item/food/grown/poppy{
-	pixel_y = 2
-	},
-/obj/item/food/grown/poppy{
-	pixel_y = 2
-	},
-/obj/item/food/grown/poppy{
-	pixel_y = 2
-	},
-/obj/machinery/light/small/directional/north,
-/obj/structure/table/wood,
+"ct" = (
+/obj/structure/altar_of_gods,
 /turf/open/floor/carpet,
-/area/station/service/chapel/office)
+/area/station/service/chapel)
 "cw" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -137,16 +118,15 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/theater)
-"cx" = (
-/obj/structure/fluff/arc,
-/turf/open/space/openspace,
-/area/space)
 "cy" = (
 /obj/machinery/door/airlock/public{
 	name = "Kitchen"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "cB" = (
@@ -164,6 +144,22 @@
 "cO" = (
 /turf/open/floor/carpet,
 /area/station/service/theater)
+"cR" = (
+/turf/open/floor/iron/chapel{
+	dir = 6
+	},
+/area/station/service/chapel)
+"cW" = (
+/turf/open/floor/carpet/royalblack,
+/area/station/service/chapel/office)
+"cZ" = (
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
 "da" = (
 /obj/machinery/door/airlock{
 	name = "Service Hall"
@@ -180,14 +176,21 @@
 /obj/machinery/restaurant_portal/restaurant,
 /turf/open/floor/wood/large,
 /area/station/commons/lounge)
-"dx" = (
-/turf/open/floor/iron/chapel{
-	dir = 10
+"dd" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/area/station/service/chapel)
-"dH" = (
-/obj/structure/extinguisher_cabinet/directional/north,
-/obj/machinery/vending/coffee,
+/turf/open/floor/iron,
+/area/station/service/bar)
+"du" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/pen,
 /turf/open/floor/wood,
 /area/station/service/library)
 "dP" = (
@@ -212,11 +215,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/large,
 /area/station/commons/lounge)
-"dY" = (
-/obj/structure/table/wood/fancy/royalblue,
-/obj/item/kirbyplants/organic/plant7,
-/turf/open/floor/wood,
-/area/station/service/library)
 "eb" = (
 /obj/structure/table/glass,
 /obj/item/stack/package_wrap,
@@ -230,14 +228,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"ec" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/south,
-/obj/effect/turf_decal/siding/wood{
-	dir = 5
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
 "ej" = (
 /obj/structure/table,
 /obj/machinery/plantgenes{
@@ -253,94 +243,68 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"er" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Chapel Office"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"eN" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
-"fc" = (
+"el" = (
+/obj/structure/bookcase/random/adult,
+/turf/open/floor/wood,
+/area/station/service/library)
+"em" = (
 /obj/structure/chair/pew/left{
 	dir = 4
 	},
 /turf/open/floor/iron/chapel{
-	dir = 9
+	dir = 1
 	},
 /area/station/service/chapel)
-"fp" = (
-/obj/machinery/door/window/left/directional/east{
-	name = "Coffin Storage";
-	req_access = list("chapel_office");
+"ew" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"eH" = (
+/turf/open/floor/iron/chapel{
+	dir = 10
+	},
+/area/station/service/chapel)
+"eJ" = (
+/turf/open/floor/plating,
+/area/station/commons/lounge)
+"eO" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 1
+	},
+/area/station/service/chapel)
+"fw" = (
+/obj/structure/table/wood,
+/obj/item/radio/radio_mic{
+	pixel_y = 7;
+	pixel_x = -4
+	},
+/turf/open/floor/iron/vaporwave,
+/area/station/service/library/private)
+"fE" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole/bookmanagement{
 	dir = 8
 	},
-/obj/structure/closet/crate/coffin,
-/turf/open/floor/plating,
-/area/station/service/chapel/office)
-"fw" = (
-/obj/machinery/door/airlock/grunge{
-	name = "Chapel Quarters"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"fD" = (
+/turf/open/floor/wood,
+/area/station/service/library)
+"fL" = (
 /obj/structure/table/wood,
-/obj/item/walkman{
-	pixel_y = 4;
-	pixel_x = -6
+/obj/item/book/bible,
+/turf/open/floor/carpet,
+/area/station/service/chapel)
+"gi" = (
+/turf/open/floor/iron/chapel{
+	dir = 5
 	},
-/obj/item/walkman{
-	pixel_y = 4;
-	pixel_x = -6
-	},
-/obj/item/walkman{
-	pixel_y = 4;
-	pixel_x = -6
-	},
-/obj/item/cassette_tape/blank{
-	pixel_y = 3;
-	pixel_x = 5
-	},
-/obj/item/cassette_tape/blank{
-	pixel_y = 3;
-	pixel_x = 5
-	},
-/obj/item/cassette_tape/blank{
-	pixel_y = 3;
-	pixel_x = 5
-	},
-/obj/item/flashlight/lamp/green{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"gc" = (
-/obj/machinery/disposal/bin,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/service)
-"gd" = (
-/obj/structure/bookcase/random/religion,
-/turf/open/floor/wood,
-/area/station/service/library)
-"gf" = (
-/obj/machinery/growing/soil{
-	pixel_y = 8
-	},
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/cult,
-/area/station/service/chapel/office)
+/area/station/service/chapel)
 "gn" = (
 /obj/structure/table/wood/poker,
 /obj/item/storage/dice,
@@ -351,17 +315,19 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/wood,
 /area/station/service/theater)
+"gv" = (
+/turf/open/floor/iron/chapel{
+	dir = 9
+	},
+/area/station/service/chapel)
 "gz" = (
-/obj/structure/displaycase/trophy,
-/turf/open/floor/wood,
-/area/station/service/library)
-"gG" = (
-/obj/structure/dresser,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"gO" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/east,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
 /turf/open/floor/iron,
-/area/station/service/hydroponics)
+/area/station/commons/lounge)
 "gP" = (
 /obj/machinery/chem_master/condimaster{
 	desc = "Used to separate out liquids - useful for purifying botanical extracts. Also dispenses condiments.";
@@ -378,12 +344,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"gV" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Funeral Parlour"
-	},
+"gU" = (
+/obj/structure/bodycontainer/morgue,
 /turf/open/floor/iron/dark,
-/area/station/service/chapel)
+/area/station/service/chapel/office)
 "hb" = (
 /obj/machinery/griddle,
 /turf/open/floor/iron/cafeteria,
@@ -391,99 +355,101 @@
 "hh" = (
 /turf/open/floor/iron/stairs/medium,
 /area/station/service/kitchen)
-"hl" = (
-/obj/machinery/door/poddoor/shutters{
-	dir = 1;
-	id = "custodialshutters";
-	name = "Custodial Closet Shutters"
-	},
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"hn" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
+"hi" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron/chapel,
+/area/station/service/chapel)
+"hk" = (
 /turf/open/floor/iron,
-/area/station/service/hydroponics)
+/area/station/service/hydroponics/chicken)
 "hr" = (
-/turf/closed/wall,
-/area/station/service/kitchen/coldroom)
+/turf/open/floor/iron/chapel,
+/area/station/service/chapel)
+"hu" = (
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
 "hv" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/landmark/start/bartender,
 /turf/open/floor/iron,
 /area/station/service/bar)
-"hw" = (
-/obj/machinery/door/morgue{
-	name = "Private Study";
-	req_access = list("library")
-	},
-/turf/open/floor/engine/cult,
-/area/station/service/library/private)
-"hx" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"hJ" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/siding/wood{
+"hM" = (
+/obj/structure/chair/pew/left{
 	dir = 4
 	},
-/turf/open/floor/iron,
-/area/station/service/bar)
+/turf/open/floor/iron/chapel{
+	dir = 9
+	},
+/area/station/service/chapel)
 "hX" = (
 /turf/open/floor/iron/stairs/medium{
 	dir = 8
 	},
 /area/space)
-"hZ" = (
-/obj/item/kirbyplants/organic/plant18,
-/turf/open/floor/wood,
-/area/station/service/library)
-"ip" = (
-/obj/structure/chair/pew/right{
+"ii" = (
+/obj/structure/chair/pew/left{
 	dir = 4
 	},
 /turf/open/floor/iron/chapel{
-	dir = 10
+	dir = 8
 	},
 /area/station/service/chapel)
+"ij" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/north,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/station/commons/lounge)
+"im" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/station/service/chapel)
+"iu" = (
+/obj/structure/fluff/arc,
+/turf/open/space/openspace,
+/area/space)
 "iy" = (
 /obj/structure/chair/comfy/beige{
 	dir = 8
 	},
 /turf/open/floor/wood/large,
 /area/station/commons/lounge)
-"iK" = (
-/obj/machinery/door/morgue{
-	name = "Relic Closet";
-	req_access = list("chapel_office")
+"iR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
-/turf/open/floor/cult,
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/iron/dark,
 /area/station/service/chapel/office)
 "iU" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/chair/stool/bar/directional/west,
 /obj/effect/turf_decal/siding/wood{
-	dir = 6
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/station/commons/lounge)
-"jb" = (
-/turf/open/floor/plating,
-/area/station/hallway/secondary/service)
+"iX" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"jn" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 6
+	},
+/area/station/service/chapel)
 "jt" = (
 /turf/closed/wall,
 /area/station/service/bar/backroom)
 "ju" = (
-/turf/open/floor/iron,
-/area/station/service/hydroponics/chicken)
+/turf/open/floor/wood,
+/area/station/service/library)
 "jv" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder{
@@ -501,73 +467,58 @@
 /obj/machinery/restaurant_portal/bar,
 /turf/open/floor/wood/large,
 /area/station/commons/lounge)
-"jH" = (
-/obj/item/kirbyplants/organic/plant12,
+"jE" = (
+/obj/structure/mop_bucket/janitorialcart,
+/obj/item/mop,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/radio/intercom/directional/east,
+/obj/item/storage/bag/trash,
+/obj/effect/turf_decal/bot/right,
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"jS" = (
+/obj/item/kirbyplants/organic/plant19,
 /turf/open/floor/iron/dark,
-/area/station/service/chapel)
+/area/station/service/chapel/office)
 "jU" = (
 /turf/open/floor/iron,
 /area/space)
-"jX" = (
-/obj/structure/easel,
-/obj/item/canvas/nineteen_nineteen,
-/obj/item/canvas/twentythree_nineteen,
-/obj/item/canvas/twentythree_twentythree,
-/obj/structure/sign/painting/library{
-	pixel_y = 32
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"jY" = (
-/obj/structure/chair/pew/right{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 1
-	},
-/area/station/service/chapel)
-"jZ" = (
+"ke" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "chapel_shutters_parlour";
-	name = "Chapel Shutters"
-	},
 /turf/open/floor/plating,
-/area/station/service/chapel/office)
-"kh" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Library"
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
+/area/station/service/library/private)
+"kf" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/station/service/hydroponics)
 "kl" = (
 /turf/closed/wall,
 /area/station/service/kitchen)
-"kx" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"kC" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/candle_box{
-	pixel_y = 13;
-	pixel_x = -5
-	},
-/obj/item/storage/photo_album/chapel{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/turf/open/floor/carpet/royalblack,
+"kn" = (
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"kE" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/grimey,
 /area/station/service/chapel/office)
+"kF" = (
+/obj/structure/table/wood,
+/obj/machinery/dj_station{
+	pixel_y = 12
+	},
+/turf/open/floor/iron/vaporwave,
+/area/station/service/library/private)
+"kH" = (
+/obj/item/kirbyplants/organic/plant2,
+/turf/open/floor/glass/reinforced,
+/area/station/service/chapel)
 "kL" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/space)
+"kN" = (
+/turf/open/floor/glass/reinforced,
+/area/station/service/chapel)
 "kP" = (
 /obj/machinery/vending/hydronutrients,
 /obj/effect/turf_decal/tile/green{
@@ -578,18 +529,20 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"kS" = (
-/turf/open/floor/carpet/royalblack,
-/area/station/service/chapel/office)
-"kY" = (
-/obj/machinery/disposal/bin,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"lj" = (
-/obj/structure/table/wood,
-/obj/item/book/bible,
-/turf/open/floor/carpet,
-/area/station/service/chapel/office)
+"la" = (
+/obj/machinery/vending/wardrobe/curator_wardrobe,
+/turf/open/floor/iron/vaporwave,
+/area/station/service/library/private)
+"lc" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"lk" = (
+/obj/machinery/libraryscanner,
+/turf/open/floor/wood,
+/area/station/service/library)
 "lr" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/chem_master/condimaster{
@@ -609,23 +562,26 @@
 /obj/structure/sink/kitchen/directional/north,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
-"lX" = (
-/turf/closed/wall,
-/area/station/service/chapel)
-"lY" = (
-/turf/closed/wall,
-/area/station/service/chapel/office)
-"mb" = (
-/obj/structure/chair/stool/directional/east,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
+"lT" = (
+/obj/machinery/disposal/bin,
 /turf/open/floor/wood,
-/area/station/commons/lounge)
+/area/station/service/library)
+"lX" = (
+/obj/structure/noticeboard/directional/east,
+/turf/open/floor/wood,
+/area/station/service/library)
+"lY" = (
+/obj/machinery/holopad,
+/turf/open/floor/wood,
+/area/station/service/library)
 "mi" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/wood,
 /area/station/commons/lounge)
+"ms" = (
+/obj/structure/sink/directional/south,
+/turf/open/floor/wood,
+/area/station/service/bar/backroom)
 "mu" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -637,6 +593,14 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/service/theater)
+"mA" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/station/commons/lounge)
 "mB" = (
 /obj/structure/table,
 /obj/machinery/fax{
@@ -645,18 +609,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
-"mI" = (
-/obj/item/kirbyplants/organic/plant2,
-/turf/open/floor/glass/reinforced,
-/area/station/service/chapel)
 "mT" = (
-/obj/structure/window/spawner/directional/south,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"mZ" = (
-/obj/structure/noticeboard/directional/east,
-/turf/open/floor/wood,
-/area/station/service/library)
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
 "nf" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -666,22 +625,21 @@
 	},
 /turf/open/floor/iron/checker,
 /area/station/service/theater)
+"ni" = (
+/turf/open/floor/plating,
+/area/station/hallway/secondary/service)
 "nr" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/door/airlock/glass{
-	name = "Bar"
+/obj/effect/turf_decal/bot,
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
 	},
-/obj/effect/mapping_helpers/airlock/access/all/service/bar,
-/obj/effect/turf_decal/siding/wood{
+/obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/station/service/bar)
-"nT" = (
-/turf/open/floor/iron/chapel{
-	dir = 1
-	},
-/area/station/service/chapel)
+/area/station/service/hydroponics)
 "oa" = (
 /turf/closed/wall,
 /area/station/service/library)
@@ -699,10 +657,19 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"of" = (
-/obj/effect/spawner/structure/window/reinforced/tinted,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
+"oi" = (
+/obj/structure/table/wood/fancy/royalblue,
+/obj/effect/spawner/random/decoration/statue{
+	spawn_loot_chance = 50
+	},
+/obj/machinery/door/window{
+	dir = 8;
+	name = "Secure Art Exhibition";
+	req_access = list("library")
+	},
+/obj/structure/window/spawner/directional/south,
+/turf/open/floor/wood,
+/area/station/service/library)
 "ol" = (
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/gambling,
@@ -711,7 +678,89 @@
 "om" = (
 /turf/closed/wall,
 /area/station/commons/lounge)
-"ow" = (
+"or" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/service/bar)
+"oz" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/smartfridge/drinks,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/station/service/bar)
+"oA" = (
+/obj/item/kirbyplants/organic/plant12,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
+"oR" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"oS" = (
+/turf/open/floor/iron/vaporwave,
+/area/station/service/library/private)
+"oX" = (
+/obj/structure/disposaloutlet{
+	dir = 4;
+	name = "Cargo Deliveries"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
+"pd" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"pg" = (
+/obj/machinery/door/window/right/directional/north{
+	base_state = "left";
+	icon_state = "left";
+	name = "Library Desk Door";
+	req_access = list("library");
+	pixel_y = -2
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"pj" = (
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"pn" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/entertainment/musical_instrument,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
+	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
+	id = "theater_curtains";
+	name = "Theater Curtains"
+	},
+/turf/open/floor/wood/large,
+/area/station/service/theater)
+"po" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"pp" = (
 /obj/structure/table/wood,
 /obj/item/book/granter/action/spell/smoke/lesser{
 	name = "mysterious old book of cloud-chasing";
@@ -736,43 +785,994 @@
 	},
 /turf/open/floor/cult,
 /area/station/service/chapel/office)
-"oz" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/smartfridge/drinks,
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
+"pL" = (
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/wood,
+/area/station/service/bar/backroom)
+"pP" = (
+/turf/open/floor/iron/chapel{
+	dir = 4
 	},
-/turf/open/floor/iron,
-/area/station/service/bar)
-"oE" = (
-/obj/structure/table/wood,
-/obj/item/toy/crayon/spraycan{
-	pixel_x = -9;
-	pixel_y = 4
-	},
-/obj/item/toy/crayon/spraycan{
+/area/station/service/chapel)
+"pT" = (
+/obj/structure/table,
+/obj/item/storage/box/mousetraps{
 	pixel_x = -3;
-	pixel_y = 4
+	pixel_y = 8
 	},
-/obj/item/paint_palette{
-	pixel_x = 8;
-	pixel_y = 4
+/obj/item/storage/box/mousetraps{
+	pixel_x = -2;
+	pixel_y = 3
 	},
-/obj/structure/sign/painting/large/library{
-	dir = 1
+/obj/item/restraints/legcuffs/beartrap{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/obj/item/restraints/legcuffs/beartrap,
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"pX" = (
+/turf/open/floor/iron/stairs/medium{
+	dir = 8
+	},
+/area/station/service/chapel/office)
+"pY" = (
+/obj/structure/closet/l3closet/janitor,
+/turf/open/floor/iron/dark,
+/area/station/service/janitor)
+"qj" = (
+/obj/structure/window/spawner/directional/west,
+/obj/structure/closet/crate/coffin,
+/turf/open/floor/plating,
+/area/station/service/chapel/office)
+"ql" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/desk_bell{
+	pixel_x = 7
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/station/service/kitchen)
+"qz" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/item/paper_bin{
+	pixel_x = -12;
+	pixel_y = 1
 	},
 /turf/open/floor/wood,
 /area/station/service/library)
-"oI" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
+"qG" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/trash/soap,
+/obj/item/clothing/glasses/monocle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
+	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
+	id = "theater_curtains";
+	name = "Theater Curtains"
+	},
+/turf/open/floor/wood/large,
+/area/station/service/theater)
+"qS" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"re" = (
+/turf/open/floor/wood,
+/area/station/service/bar/backroom)
+"rh" = (
+/obj/structure/bookcase/random/nonfiction,
+/turf/open/floor/wood,
+/area/station/service/library)
+"ro" = (
 /obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_service";
+	name = "Service Shutter"
+	},
+/obj/machinery/smartfridge,
+/turf/open/floor/plating,
+/area/station/service/kitchen)
+"rs" = (
+/obj/structure/chair/pew{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel,
+/area/station/service/chapel)
+"rx" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/station/service/kitchen)
+"ry" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/item/holosign_creator/robot_seat/bar,
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/iron,
+/area/station/service/bar)
+"rG" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/wood/large,
+/area/station/commons/lounge)
+"rO" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/door/airlock/glass{
+	name = "Bar"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/iron,
 /area/station/service/bar)
-"oK" = (
+"rW" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/station/service/bar)
+"sa" = (
+/obj/structure/table/wood,
+/obj/item/food/grown/poppy/geranium{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/food/grown/poppy/lily,
+/turf/open/floor/carpet/royalblack,
+/area/station/service/chapel/office)
+"sc" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"se" = (
+/obj/structure/chair/pew{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 5
+	},
+/area/station/service/chapel)
+"sh" = (
+/obj/structure/bookcase/manuals/botany,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"ss" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Bar"
+	},
+/turf/open/floor/wood/large,
+/area/station/commons/lounge)
+"st" = (
+/obj/machinery/door/airlock{
+	name = "Custodial Closet"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/all/service/janitor,
+/obj/effect/landmark/navigate_destination/janitor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"sw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
+/obj/machinery/icecream_vat,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/station/service/kitchen/coldroom)
+"sz" = (
+/obj/machinery/computer/libraryconsole{
+	dir = 8
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/station/service/library)
+"sL" = (
+/obj/structure/chair/comfy/beige{
+	dir = 4
+	},
+/turf/open/floor/wood/large,
+/area/station/commons/lounge)
+"sM" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Library"
+	},
+/turf/open/floor/carpet,
+/area/station/service/library)
+"sZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	name = "Mime's Backstage Room"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
+/turf/open/floor/iron/dark,
+/area/station/service/theater)
+"td" = (
+/obj/machinery/door/morgue{
+	name = "Confession Booth"
+	},
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
+"ts" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron/vaporwave,
+/area/station/service/library/private)
+"tt" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/door/airlock/glass{
+	name = "Bar"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/bar,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/service/bar)
+"tB" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 9
+	},
+/area/station/service/chapel)
+"tD" = (
+/obj/structure/table/wood/poker,
+/obj/effect/spawner/random/entertainment/cigarette,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"tG" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/book/manual/chef_recipes{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"tM" = (
+/turf/closed/wall,
+/area/station/service/library/private)
+"tY" = (
+/turf/closed/wall,
+/area/station/service/kitchen/coldroom)
+"ud" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/structure/closet/secure_closet/personal/cabinet{
+	name = "clown's closet"
+	},
+/obj/item/toy/mecha/honk,
+/turf/open/floor/iron,
+/area/station/service/theater)
+"uj" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/growing/tray,
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"uk" = (
+/obj/structure/chair/pew/left{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 5
+	},
+/area/station/service/chapel)
+"um" = (
+/obj/structure/rack,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
+"ur" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/smartfridge/food,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/station/service/kitchen)
+"ut" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
+	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
+	id = "theater_curtains";
+	name = "Theater Curtains"
+	},
+/turf/open/floor/wood/large,
+/area/station/service/theater)
+"uv" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
+"uw" = (
+/obj/effect/landmark/start/cook,
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"ux" = (
+/obj/machinery/door/poddoor/shutters{
+	dir = 1;
+	id = "custodialshutters";
+	name = "Custodial Closet Shutters"
+	},
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"uC" = (
+/obj/structure/chair/pew/left{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 6
+	},
+/area/station/service/chapel)
+"uH" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/entertainment/lighter,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/service/bar)
+"uO" = (
+/obj/machinery/modular_computer/preset/curator{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"uP" = (
+/obj/machinery/door/window/left/directional/east{
+	name = "Coffin Storage";
+	req_access = list("chapel_office");
+	dir = 8
+	},
+/obj/structure/closet/crate/coffin,
+/turf/open/floor/plating,
+/area/station/service/chapel/office)
+"uX" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"vc" = (
+/obj/machinery/holopad,
+/turf/open/floor/carpet,
+/area/station/service/theater)
+"vk" = (
+/obj/machinery/deepfryer,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"vl" = (
+/obj/structure/chair/pew{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 8
+	},
+/area/station/service/chapel)
+"vz" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
+/area/station/service/chapel)
+"vN" = (
+/obj/structure/table/wood,
+/obj/machinery/cassette_deck{
+	pixel_y = 8
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"wc" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"wu" = (
+/obj/machinery/oven/range,
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"wx" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	name = "Clown's Backstage Room"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
+/turf/open/floor/iron/dark,
+/area/station/service/theater)
+"wy" = (
+/obj/machinery/cassette_library,
+/turf/open/floor/wood,
+/area/station/service/library)
+"wQ" = (
+/obj/machinery/skill_station,
+/turf/open/floor/wood,
+/area/station/service/library)
+"wT" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"wW" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"wZ" = (
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"xk" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/north,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/station/commons/lounge)
+"xq" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"xJ" = (
+/obj/structure/table,
+/obj/item/storage/box/lights/mixed{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/box/lights/mixed{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/clothing/gloves/color/purple,
+/obj/item/clothing/gloves/color/orange{
+	pixel_x = 4;
+	pixel_y = -2
+	},
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"xR" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"xW" = (
+/turf/open/floor/iron/chapel{
+	dir = 1
+	},
+/area/station/service/chapel)
+"ya" = (
+/obj/structure/bookcase/random/religion,
+/turf/open/floor/wood,
+/area/station/service/library)
+"yg" = (
+/turf/closed/wall,
+/area/space)
+"yp" = (
+/obj/machinery/door/morgue{
+	name = "Private Study";
+	req_access = list("library")
+	},
+/turf/open/floor/engine/cult,
+/area/station/service/library/private)
+"ys" = (
+/obj/structure/table/wood,
+/obj/item/walkman{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/walkman{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/walkman{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/cassette_tape/blank{
+	pixel_y = 3;
+	pixel_x = 5
+	},
+/obj/item/cassette_tape/blank{
+	pixel_y = 3;
+	pixel_x = 5
+	},
+/obj/item/cassette_tape/blank{
+	pixel_y = 3;
+	pixel_x = 5
+	},
+/obj/item/flashlight/lamp/green{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"yv" = (
+/turf/open/floor/plating,
+/area/station/service/library)
+"yB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/space)
+"yC" = (
+/turf/open/floor/carpet/grimey,
+/area/station/service/bar/backroom)
+"yJ" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
+	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
+	id = "theater_curtains";
+	name = "Theater Curtains"
+	},
+/turf/open/floor/wood/large,
+/area/station/service/theater)
+"yK" = (
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/station/service/kitchen/coldroom)
+"yU" = (
+/turf/closed/wall,
+/area/station/service/janitor)
+"yV" = (
+/obj/structure/table/wood,
+/obj/item/storage/dice,
+/turf/open/floor/wood,
+/area/station/service/library)
+"zf" = (
+/obj/structure/table/wood,
+/obj/item/camera_film{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/camera_film{
+	pixel_y = 9
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"zi" = (
+/obj/structure/chair/pew{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 9
+	},
+/area/station/service/chapel)
+"zt" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/station/commons/lounge)
+"zG" = (
+/obj/structure/table,
+/obj/machinery/splicer,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"zZ" = (
+/turf/open/floor/plating,
+/area/space)
+"Ac" = (
+/obj/machinery/door/airlock/hydroponics/glass{
+	name = "Hydroponics"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/hydroponics,
+/obj/effect/turf_decal/tile/green/fourcorners,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
+"An" = (
+/obj/machinery/rnd/production/techfab/department/service,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
+"AE" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"AF" = (
+/obj/structure/table/wood,
+/obj/item/storage/crayons,
+/turf/open/floor/wood,
+/area/station/service/library)
+"AG" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table,
+/obj/machinery/chem_dispenser/drinks,
+/turf/open/floor/iron,
+/area/station/service/bar)
+"AL" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/station/service/theater)
+"AM" = (
+/obj/machinery/computer/slot_machine{
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron,
+/area/station/commons/lounge)
+"AP" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Funeral Parlour"
+	},
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
+"Be" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Library"
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"BL" = (
+/turf/open/floor/grass,
+/area/station/service/hydroponics/chicken)
+"BX" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 5
+	},
+/area/station/service/chapel)
+"Cc" = (
+/obj/machinery/door/morgue{
+	name = "Chapel Garden"
+	},
+/turf/open/floor/cult,
+/area/station/service/chapel/office)
+"Ck" = (
+/obj/structure/bed,
+/obj/item/bedsheet/black,
+/turf/open/floor/carpet/grimey,
+/area/station/service/bar/backroom)
+"Cl" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/entertainment/lighter,
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/iron,
+/area/station/service/bar)
+"Cr" = (
+/obj/structure/table,
+/obj/effect/spawner/random/food_or_drink/cake_ingredients,
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"CE" = (
+/obj/item/kirbyplants/organic/plant21,
+/turf/open/floor/wood/large,
+/area/station/commons/lounge)
+"CU" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/wood,
+/area/station/service/library)
+"CX" = (
+/obj/structure/bed/dogbed{
+	name = "Pun Pun's Bed"
+	},
+/obj/item/toy/figure/bartender,
+/obj/item/food/grown/banana,
+/turf/open/floor/carpet/grimey,
+/area/station/service/bar/backroom)
+"De" = (
+/obj/machinery/cassette_postbox,
+/turf/open/floor/wood,
+/area/station/service/library)
+"Dm" = (
+/obj/machinery/door/morgue{
+	name = "Confession Booth (Chaplain)";
+	req_access = list("chapel_office")
+	},
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
+"Do" = (
+/obj/machinery/biogenerator,
+/turf/closed/wall,
+/area/station/hallway/secondary/service)
+"Dp" = (
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"Dq" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Bar"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"Dy" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/sign/picture_frame/portrait/bar{
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/station/service/bar)
+"DD" = (
+/turf/open/floor/carpet,
+/area/station/service/library)
+"DM" = (
+/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/turf/open/floor/wood,
+/area/station/service/bar/backroom)
+"DO" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"DY" = (
+/obj/structure/chair/sofa/corner/brown,
+/turf/open/floor/wood,
+/area/station/service/library)
+"Ei" = (
+/obj/structure/reagent_dispensers/cooking_oil,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/station/service/kitchen/coldroom)
+"Eo" = (
+/obj/machinery/door/morgue{
+	name = "Relic Closet";
+	req_access = list("chapel_office")
+	},
+/turf/open/floor/cult,
+/area/station/service/chapel/office)
+"Er" = (
+/obj/structure/chair/sofa/left/brown{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"Es" = (
+/obj/machinery/vending/autodrobe,
+/turf/open/floor/carpet,
+/area/station/service/theater)
+"Ez" = (
+/obj/structure/chair/wood/wings{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/station/service/theater)
+"EE" = (
+/obj/structure/table/wood,
+/obj/item/storage/crayons,
+/turf/open/floor/carpet/royalblack,
+/area/station/service/chapel/office)
+"ER" = (
+/obj/effect/landmark/start/clown,
+/turf/open/floor/wood,
+/area/station/service/theater)
+"EW" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/station/service/kitchen)
+"EY" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"Fe" = (
+/obj/item/kirbyplants/organic/plant21,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"Fk" = (
+/obj/structure/chair/pew/left{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel,
+/area/station/service/chapel)
+"Fo" = (
+/obj/machinery/photocopier,
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"Fq" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
+"Fu" = (
+/obj/effect/landmark/start/janitor,
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"FC" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/iron,
+/area/station/service/theater)
+"FJ" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Chapel Quarters"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"FK" = (
+/obj/effect/landmark/start/chaplain,
+/turf/open/floor/carpet,
+/area/station/service/chapel)
+"FP" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/personal/cabinet{
+	name = "mime's closet"
+	},
+/obj/item/storage/crayons{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/storage/crayons{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/turf/open/floor/iron/checker,
+/area/station/service/theater)
+"Gj" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/station/service/kitchen/coldroom)
+"Gm" = (
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"Gt" = (
+/obj/structure/closet/secure_closet/bar,
+/turf/open/floor/wood,
+/area/station/service/bar/backroom)
+"Gv" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "chapel_shutters_space";
+	name = "Chapel Shutters"
+	},
+/turf/open/floor/plating,
+/area/station/service/chapel)
+"Gy" = (
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/wood,
+/area/station/service/theater)
+"GB" = (
+/turf/open/floor/wood/large,
+/area/station/commons/lounge)
+"GI" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/flare/candle,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel)
+"GK" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/station/service/kitchen/coldroom)
+"GM" = (
+/obj/machinery/modular_computer/preset/cargochat/service,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
+"GT" = (
+/obj/structure/table/wood/fancy/royalblue,
+/obj/item/kirbyplants/organic/plant7,
+/turf/open/floor/wood,
+/area/station/service/library)
+"Hb" = (
+/obj/structure/bookcase/random/reference,
+/turf/open/floor/wood,
+/area/station/service/library)
+"Hi" = (
+/obj/machinery/vending/wardrobe/chap_wardrobe,
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"Hv" = (
+/obj/machinery/vending/wardrobe/chef_wardrobe,
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"HL" = (
+/obj/machinery/gibber,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/station/service/kitchen/coldroom)
+"HM" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron/cafeteria,
+/area/station/service/kitchen)
+"HO" = (
+/obj/structure/curtain/bounty,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/station/service/bar/backroom)
+"HP" = (
+/obj/structure/table/wood/poker,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"IK" = (
 /obj/item/folder{
 	pixel_x = 7;
 	pixel_y = 3
@@ -801,1048 +1801,40 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/library)
-"oS" = (
-/obj/structure/chair/pew{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 9
-	},
-/area/station/service/chapel)
-"pd" = (
-/obj/structure/closet/secure_closet/freezer/kitchen,
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"pl" = (
-/obj/effect/landmark/start/librarian,
-/turf/open/floor/wood,
-/area/station/service/library)
-"pn" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/entertainment/musical_instrument,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
-	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
-	id = "theater_curtains";
-	name = "Theater Curtains"
-	},
-/turf/open/floor/wood/large,
-/area/station/service/theater)
-"po" = (
-/obj/structure/table,
-/obj/machinery/reagentgrinder{
-	pixel_x = -8;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/condiment/enzyme{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"pw" = (
-/turf/open/floor/iron,
-/area/station/hallway/secondary/service)
-"pJ" = (
-/obj/machinery/rnd/production/techfab/department/service,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/service)
-"pL" = (
-/obj/structure/extinguisher_cabinet/directional/south,
-/turf/open/floor/wood,
-/area/station/service/bar/backroom)
-"qf" = (
-/obj/structure/table/wood,
-/turf/open/floor/iron/vaporwave,
-/area/station/service/library/private)
-"qj" = (
-/turf/open/floor/wood,
-/area/station/service/library)
-"ql" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/structure/desk_bell{
-	pixel_x = 7
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/station/service/kitchen)
-"qB" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/item/pen,
-/turf/open/floor/wood,
-/area/station/service/library)
-"qF" = (
-/obj/machinery/holopad,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/service)
-"qG" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/trash/soap,
-/obj/item/clothing/glasses/monocle,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
-	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
-	id = "theater_curtains";
-	name = "Theater Curtains"
-	},
-/turf/open/floor/wood/large,
-/area/station/service/theater)
-"qS" = (
-/obj/machinery/holopad,
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"qU" = (
-/obj/structure/chair/pew{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 10
-	},
-/area/station/service/chapel)
-"rb" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/station/service/hydroponics)
-"re" = (
-/turf/open/floor/wood,
-/area/station/service/bar/backroom)
-"ro" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kitchen_service";
-	name = "Service Shutter"
-	},
-/obj/machinery/smartfridge,
-/turf/open/floor/plating,
-/area/station/service/kitchen)
-"rp" = (
-/obj/machinery/door/poddoor/massdriver_chapel{
-	dir = 4
-	},
-/obj/structure/fans/tiny,
-/obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/floor/plating,
-/area/station/service/chapel/office)
-"rq" = (
-/turf/closed/wall,
-/area/station/service/janitor)
-"rx" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/station/service/kitchen)
-"ry" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/item/holosign_creator/robot_seat/bar,
-/obj/effect/turf_decal/siding/wood/corner,
-/turf/open/floor/iron,
-/area/station/service/bar)
-"rG" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1
-	},
-/obj/machinery/disposal/bin,
-/turf/open/floor/wood/large,
-/area/station/commons/lounge)
-"rH" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"rR" = (
-/turf/closed/wall,
-/area/station/hallway/secondary/service)
-"rV" = (
-/obj/structure/chair/sofa/middle/brown{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"rW" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/station/service/bar)
-"sc" = (
-/obj/structure/chair/sofa/left/brown{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"se" = (
-/obj/machinery/cassette_library,
-/turf/open/floor/wood,
-/area/station/service/library)
-"sh" = (
-/obj/structure/bookcase/manuals/botany,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"ss" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Bar"
-	},
-/turf/open/floor/wood/large,
-/area/station/commons/lounge)
-"sw" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
-/obj/machinery/icecream_vat,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/station/service/kitchen/coldroom)
-"sL" = (
-/obj/structure/chair/comfy/beige{
-	dir = 4
-	},
-/turf/open/floor/wood/large,
-/area/station/commons/lounge)
-"sZ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	name = "Mime's Backstage Room"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
-/turf/open/floor/iron/dark,
-/area/station/service/theater)
-"tt" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/door/airlock/glass{
-	name = "Bar"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/bar,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/service/bar)
-"tD" = (
-/obj/structure/table/wood/poker,
-/obj/effect/spawner/random/entertainment/cigarette,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"tG" = (
-/obj/structure/table,
-/obj/machinery/reagentgrinder{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/book/manual/chef_recipes{
-	pixel_x = -7;
-	pixel_y = 7
-	},
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"tJ" = (
-/obj/machinery/portable_atmospherics/canister/water_vapor,
-/obj/effect/turf_decal/bot/right,
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 8
-	},
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"tY" = (
-/obj/structure/table/wood,
-/obj/item/book/bible,
-/turf/open/floor/carpet,
-/area/station/service/chapel)
-"ud" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/structure/closet/secure_closet/personal/cabinet{
-	name = "clown's closet"
-	},
-/obj/item/toy/mecha/honk,
-/turf/open/floor/iron,
-/area/station/service/theater)
-"uj" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/growing/tray,
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"um" = (
-/obj/structure/sign/painting/library{
-	pixel_y = 32
-	},
-/obj/machinery/photocopier,
-/turf/open/floor/wood,
-/area/station/service/library)
-"ur" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/smartfridge/food,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/station/service/kitchen)
-"ut" = (
-/obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
-	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
-	id = "theater_curtains";
-	name = "Theater Curtains"
-	},
-/turf/open/floor/wood/large,
-/area/station/service/theater)
-"uw" = (
-/obj/effect/landmark/start/cook,
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"uB" = (
-/obj/machinery/button/crematorium{
-	id = "crematoriumChapel";
-	pixel_x = -26
-	},
-/obj/structure/bodycontainer/crematorium{
-	dir = 4;
-	id = "crematoriumChapel"
-	},
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
-"uC" = (
-/obj/machinery/modular_computer/preset/cargochat/service,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/service)
-"uO" = (
-/turf/closed/wall,
-/area/station/service/hydroponics)
-"uQ" = (
-/obj/machinery/photocopier,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"uU" = (
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"uX" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"vc" = (
-/obj/machinery/holopad,
-/turf/open/floor/carpet,
-/area/station/service/theater)
-"ve" = (
-/obj/effect/turf_decal/tile/blue,
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"vk" = (
-/obj/machinery/deepfryer,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"vl" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "chapel_shutters_space";
-	name = "Chapel Shutters"
-	},
-/turf/open/floor/plating,
-/area/station/service/chapel)
-"we" = (
-/obj/vehicle/ridden/janicart,
-/turf/open/floor/iron/dark,
-/area/station/service/janitor)
-"wu" = (
-/obj/machinery/oven/range,
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"wx" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	name = "Clown's Backstage Room"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
-/turf/open/floor/iron/dark,
-/area/station/service/theater)
-"wN" = (
-/obj/structure/table/wood,
-/obj/item/folder{
-	pixel_x = -1;
-	pixel_y = -1
-	},
-/obj/item/folder{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/pen,
-/turf/open/floor/wood,
-/area/station/service/library)
-"wT" = (
-/obj/structure/chair/stool/directional/west,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"wW" = (
-/obj/structure/table,
-/obj/item/grenade/chem_grenade/cleaner{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/grenade/chem_grenade/cleaner{
-	pixel_x = 3;
-	pixel_y = 4
-	},
-/obj/item/grenade/chem_grenade/cleaner,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/key/janitor{
-	pixel_y = -7
-	},
-/obj/item/clothing/glasses/science,
-/obj/item/clothing/glasses/science,
-/obj/item/clothing/glasses/science,
-/obj/item/clothing/glasses/science,
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"wZ" = (
-/obj/machinery/growing/tray,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"xE" = (
-/obj/machinery/holopad,
-/turf/open/floor/iron/chapel,
-/area/station/service/chapel)
-"xV" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/east,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"yg" = (
-/turf/closed/wall,
-/area/space)
-"yo" = (
-/obj/structure/table/wood,
-/obj/item/storage/crayons,
-/turf/open/floor/wood,
-/area/station/service/library)
-"ys" = (
-/obj/machinery/holopad,
-/turf/open/floor/wood,
-/area/station/service/library)
-"yz" = (
-/obj/structure/chair/pew/left{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 10
-	},
-/area/station/service/chapel)
-"yB" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
-/area/space)
-"yC" = (
-/turf/open/floor/carpet/grimey,
-/area/station/service/bar/backroom)
-"yE" = (
-/turf/closed/wall,
-/area/station/service/hydroponics/chicken)
-"yH" = (
-/obj/machinery/door/airlock/hydroponics/glass{
-	name = "Hydroponics"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/hydroponics,
-/obj/effect/turf_decal/tile/green/fourcorners,
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"yJ" = (
-/obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
-	desc = "A set of curtains serving as a fancy theater backdrop. They can only be opened by a button.";
-	id = "theater_curtains";
-	name = "Theater Curtains"
-	},
-/turf/open/floor/wood/large,
-/area/station/service/theater)
-"yK" = (
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/station/service/kitchen/coldroom)
-"yO" = (
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"yR" = (
-/obj/structure/chair/pew/right{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 8
-	},
-/area/station/service/chapel)
-"yY" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lantern{
-	pixel_y = 7
-	},
-/turf/open/floor/carpet,
-/area/station/service/chapel)
-"za" = (
-/obj/machinery/door/morgue{
-	name = "Chapel Garden"
-	},
-/turf/open/floor/cult,
-/area/station/service/chapel/office)
-"zf" = (
-/turf/open/floor/iron/dark,
-/area/station/service/chapel)
-"zi" = (
-/obj/structure/chair/office{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"zr" = (
-/obj/structure/noticeboard/directional/north{
-	desc = "A memorial wall for pinning mementos upon.";
-	name = "memorial board"
-	},
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box{
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/structure/table/wood,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/carpet,
-/area/station/service/chapel/office)
-"zt" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/south,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"zE" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table/reinforced,
-/obj/effect/spawner/random/entertainment/lighter,
-/obj/effect/turf_decal/siding/wood/corner,
-/turf/open/floor/iron,
-/area/station/service/bar)
-"zG" = (
-/obj/structure/table,
-/obj/machinery/splicer,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"zZ" = (
-/turf/open/floor/plating,
-/area/space)
-"Aa" = (
-/obj/structure/window/spawner/directional/west,
-/obj/structure/closet/crate/coffin,
-/turf/open/floor/plating,
-/area/station/service/chapel/office)
-"Ab" = (
-/obj/structure/bookcase/random/reference,
-/turf/open/floor/wood,
-/area/station/service/library)
-"Ac" = (
-/obj/machinery/door/airlock/hydroponics/glass{
-	name = "Hydroponics"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/hydroponics,
-/obj/effect/turf_decal/tile/green/fourcorners,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/service)
-"AG" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table,
-/obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/iron,
-/area/station/service/bar)
-"AL" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/station/service/theater)
-"AZ" = (
-/obj/structure/chair/office/light{
-	dir = 8
-	},
-/obj/effect/landmark/start/chaplain,
-/turf/open/floor/carpet/royalblack,
-/area/station/service/chapel/office)
-"Bi" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/black{
-	dir = 4
-	},
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"Bw" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"Bz" = (
-/turf/open/floor/iron/chapel{
-	dir = 6
-	},
-/area/station/service/chapel)
-"BG" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/north,
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"BL" = (
-/turf/open/floor/grass,
-/area/station/service/hydroponics/chicken)
-"BM" = (
-/obj/item/kirbyplants/organic/plant22,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"BZ" = (
-/turf/open/floor/glass/reinforced,
-/area/station/service/chapel)
-"Ck" = (
-/obj/structure/bed,
-/obj/item/bedsheet/black,
-/turf/open/floor/carpet/grimey,
-/area/station/service/bar/backroom)
-"Cl" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table/reinforced,
-/obj/effect/spawner/random/entertainment/lighter,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/service/bar)
-"Cr" = (
-/obj/structure/table,
-/obj/effect/spawner/random/food_or_drink/cake_ingredients,
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"CE" = (
-/obj/item/kirbyplants/organic/plant21,
-/turf/open/floor/wood/large,
-/area/station/commons/lounge)
-"CS" = (
-/obj/structure/table/wood,
-/turf/open/floor/carpet,
-/area/station/service/chapel)
-"CX" = (
-/obj/structure/bed/dogbed{
-	name = "Pun Pun's Bed"
-	},
-/obj/item/toy/figure/bartender,
-/obj/item/food/grown/banana,
-/turf/open/floor/carpet/grimey,
-/area/station/service/bar/backroom)
-"CZ" = (
-/obj/structure/chair/pew/left{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel,
-/area/station/service/chapel)
-"De" = (
-/obj/machinery/cassette_postbox,
-/turf/open/floor/wood,
-/area/station/service/library)
-"Dh" = (
-/obj/structure/table/wood,
-/obj/item/radio/radio_mic{
-	pixel_y = 7;
-	pixel_x = -4
-	},
-/turf/open/floor/iron/vaporwave,
-/area/station/service/library/private)
-"Do" = (
-/obj/machinery/biogenerator,
-/turf/closed/wall,
-/area/station/hallway/secondary/service)
-"Dp" = (
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"Dq" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Bar"
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"Dy" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/sign/picture_frame/portrait/bar{
-	pixel_y = 32
-	},
-/turf/open/floor/iron,
-/area/station/service/bar)
-"DH" = (
-/obj/structure/bookcase/random/adult,
-/turf/open/floor/wood,
-/area/station/service/library)
-"DM" = (
-/obj/structure/reagent_dispensers/beerkeg,
-/obj/structure/sign/poster/contraband/random/directional/north,
-/turf/open/floor/wood,
-/area/station/service/bar/backroom)
-"DO" = (
-/obj/structure/chair/stool/directional/east,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"DU" = (
-/obj/structure/chair/pew/right{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 4
-	},
-/area/station/service/chapel)
-"DV" = (
-/obj/structure/chair/pew{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 6
-	},
-/area/station/service/chapel)
-"Ef" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/station/service/chapel)
-"Ei" = (
-/obj/structure/reagent_dispensers/cooking_oil,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/station/service/kitchen/coldroom)
-"Es" = (
-/obj/machinery/vending/autodrobe,
-/turf/open/floor/carpet,
-/area/station/service/theater)
-"Ez" = (
-/obj/structure/chair/wood/wings{
-	dir = 8
-	},
-/turf/open/floor/carpet,
-/area/station/service/theater)
-"EB" = (
-/obj/machinery/vending/games,
-/turf/open/floor/wood,
-/area/station/service/library)
-"EC" = (
-/obj/machinery/modular_computer/preset/curator{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"EF" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"EH" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/west,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"ER" = (
-/obj/effect/landmark/start/clown,
-/turf/open/floor/wood,
-/area/station/service/theater)
-"EW" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/station/service/kitchen)
-"EY" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"Fe" = (
-/obj/item/kirbyplants/organic/plant21,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"Fg" = (
-/obj/structure/chair/pew{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel,
-/area/station/service/chapel)
-"Fh" = (
-/obj/structure/chair/pew{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 5
-	},
-/area/station/service/chapel)
-"Fm" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/north,
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"Fr" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/service)
-"FC" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red,
-/turf/open/floor/iron,
-/area/station/service/theater)
-"FF" = (
-/turf/open/floor/carpet,
-/area/station/service/chapel)
-"FP" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/structure/closet/secure_closet/personal/cabinet{
-	name = "mime's closet"
-	},
-/obj/item/storage/crayons{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/storage/crayons{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/turf/open/floor/iron/checker,
-/area/station/service/theater)
-"FV" = (
+"IS" = (
 /obj/machinery/computer/order_console/cook,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
-"Gj" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/station/service/kitchen/coldroom)
-"Gm" = (
-/obj/effect/spawner/random/vending/colavend,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"Gt" = (
-/obj/structure/closet/secure_closet/bar,
-/turf/open/floor/wood,
-/area/station/service/bar/backroom)
-"Gy" = (
-/obj/item/radio/intercom/directional/west,
-/turf/open/floor/wood,
-/area/station/service/theater)
-"GB" = (
-/turf/open/floor/wood/large,
-/area/station/commons/lounge)
-"GH" = (
-/obj/structure/table/wood,
-/obj/item/storage/crayons,
-/turf/open/floor/carpet/royalblack,
-/area/station/service/chapel/office)
-"GK" = (
-/obj/structure/kitchenspike,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/station/service/kitchen/coldroom)
-"GM" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/south,
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"GO" = (
-/obj/effect/spawner/random/vending/snackvend,
-/turf/open/floor/wood,
-/area/station/service/library)
-"GU" = (
-/turf/open/floor/plating,
-/area/station/service/kitchen)
-"GW" = (
-/obj/item/storage/box/bodybags{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/structure/table/wood,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
-"He" = (
-/obj/machinery/door/airlock/grunge{
-	name = "Chapel Quarters"
-	},
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/airlock/access/all/service/crematorium,
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
-"Hr" = (
-/turf/open/floor/iron/chapel{
-	dir = 4
-	},
-/area/station/service/chapel)
-"Hv" = (
-/obj/machinery/vending/wardrobe/chef_wardrobe,
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"HL" = (
-/obj/machinery/gibber,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/station/service/kitchen/coldroom)
-"HM" = (
-/obj/machinery/disposal/bin,
-/turf/open/floor/iron/cafeteria,
-/area/station/service/kitchen)
-"HO" = (
-/obj/structure/curtain/bounty,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/station/service/bar/backroom)
-"HP" = (
-/obj/structure/table/wood/poker,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"HV" = (
-/obj/structure/closet/crate/coffin,
-/turf/open/floor/plating,
-/area/station/service/chapel/office)
-"Ii" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/growing/tray,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"IT" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/growing/tray,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
 "IV" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/station/commons/lounge)
-"Ja" = (
-/obj/machinery/skill_station,
-/turf/open/floor/wood,
-/area/station/service/library)
+"Jh" = (
+/turf/closed/wall,
+/area/station/service/hydroponics/chicken)
 "Ji" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/closed/wall,
 /area/station/service/bar)
-"Jk" = (
-/obj/structure/table/wood/fancy/royalblue,
-/obj/effect/spawner/random/decoration/statue{
-	spawn_loot_chance = 50
+"Jn" = (
+/obj/structure/table/wood,
+/obj/item/toy/crayon/spraycan{
+	pixel_x = -9;
+	pixel_y = 4
 	},
-/obj/machinery/door/window{
-	name = "Secure Art Exhibition";
-	req_access = list("library")
+/obj/item/toy/crayon/spraycan{
+	pixel_x = -3;
+	pixel_y = 4
 	},
-/obj/structure/window/spawner/directional/west,
+/obj/item/paint_palette{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/structure/sign/painting/large/library{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/station/service/library)
-"Jp" = (
-/obj/structure/closet/l3closet/janitor,
-/turf/open/floor/iron/dark,
-/area/station/service/janitor)
 "Jz" = (
 /obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/carpet/grimey,
@@ -1852,6 +1844,15 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/iron,
 /area/station/service/bar)
+"JK" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
 "JL" = (
 /obj/machinery/composters,
 /obj/effect/turf_decal/tile/blue{
@@ -1866,39 +1867,67 @@
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
-"JV" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
 "JZ" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/commons/lounge)
+"Ke" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/service)
+"Kf" = (
+/turf/open/floor/iron/chapel{
+	dir = 8
+	},
+/area/station/service/chapel)
+"Ko" = (
+/obj/item/storage/box/bodybags{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/structure/table/wood,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
+"Kp" = (
+/turf/open/space/openspace,
+/area/station/service/chapel/office)
 "Kv" = (
-/obj/machinery/door/morgue{
-	name = "Confession Booth (Chaplain)";
-	req_access = list("chapel_office")
+/obj/structure/chair{
+	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/office)
-"KG" = (
-/obj/structure/chair/pew/right{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 6
-	},
-/area/station/service/chapel)
 "KH" = (
 /obj/structure/table,
 /obj/machinery/microwave,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
+"KI" = (
+/obj/machinery/growing/soil{
+	pixel_y = 8
+	},
+/obj/item/food/grown/harebell,
+/obj/item/food/grown/harebell,
+/obj/item/food/grown/harebell,
+/obj/item/food/grown/harebell,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/cult,
+/area/station/service/chapel/office)
 "Li" = (
 /obj/structure/table/wood,
+/obj/item/storage/box/rubbershot{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/gun/ballistic/shotgun/doublebarrel,
+/obj/item/stack/package_wrap{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/stack/package_wrap{
+	pixel_x = -4;
+	pixel_y = 6
+	},
 /turf/open/floor/carpet/grimey,
 /area/station/service/bar/backroom)
 "Lk" = (
@@ -1926,28 +1955,29 @@
 /obj/structure/mirror/directional/north,
 /turf/open/floor/iron,
 /area/station/service/theater)
-"Lw" = (
+"LM" = (
 /obj/structure/table/wood,
-/obj/machinery/dj_station{
-	pixel_y = 12
+/obj/item/storage/fancy/candle_box{
+	pixel_y = 13;
+	pixel_x = -5
 	},
-/turf/open/floor/iron/vaporwave,
-/area/station/service/library/private)
-"LD" = (
-/obj/effect/landmark/start/chaplain,
-/turf/open/floor/carpet,
-/area/station/service/chapel)
-"LO" = (
-/turf/open/floor/plating,
-/area/station/service/library)
+/obj/item/storage/photo_album/chapel{
+	pixel_x = 2;
+	pixel_y = -3
+	},
+/turf/open/floor/carpet/royalblack,
+/area/station/service/chapel/office)
 "LT" = (
 /turf/closed/wall,
 /area/station/service/theater)
-"LU" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
+"Mb" = (
+/obj/structure/chair/pew{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 1
+	},
+/area/station/service/chapel)
 "Mf" = (
 /obj/machinery/seed_extractor,
 /obj/effect/turf_decal/tile/green{
@@ -1959,67 +1989,44 @@
 /obj/structure/table,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
+"Mr" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
 "Mu" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/closed/wall,
 /area/station/service/bar/backroom)
-"Mx" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole/bookmanagement{
+"MU" = (
+/obj/effect/turf_decal/siding/purple{
 	dir = 8
 	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"MB" = (
-/obj/structure/bookcase/random/nonfiction,
-/turf/open/floor/wood,
-/area/station/service/library)
-"MD" = (
-/obj/machinery/computer/department_orders/service,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/service)
-"MJ" = (
-/obj/machinery/bookbinder,
-/turf/open/floor/wood,
-/area/station/service/library)
-"MY" = (
-/obj/machinery/computer/libraryconsole{
-	dir = 8
-	},
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/station/service/library)
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"MW" = (
+/obj/machinery/vending/wardrobe/jani_wardrobe,
+/turf/open/floor/iron/dark,
+/area/station/service/janitor)
 "Nc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /obj/machinery/food_cart,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
-"Nk" = (
+"Nj" = (
+/obj/structure/chair/sofa/right/brown,
+/turf/open/floor/wood,
+/area/station/service/library)
+"NA" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Chapel Office Maintenance"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
 /turf/open/floor/plating,
 /area/station/service/chapel/office)
-"NJ" = (
-/turf/open/space/openspace,
+"NP" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/carpet/grimey,
 /area/station/service/chapel/office)
-"NR" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/item/paper_bin{
-	pixel_x = -12;
-	pixel_y = 1
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"NS" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/iron/vaporwave,
-/area/station/service/library/private)
 "Ob" = (
 /obj/structure/stairs/east,
 /turf/open/floor/iron,
@@ -2032,31 +2039,23 @@
 "Oi" = (
 /turf/open/space/basic,
 /area/space)
-"Om" = (
-/obj/item/kirbyplants/organic/plant19,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
-"Ou" = (
-/obj/machinery/disposal/bin,
-/obj/effect/turf_decal/bot/left,
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 1
+"Oo" = (
+/obj/structure/table/wood,
+/obj/item/folder{
+	pixel_x = -1;
+	pixel_y = -1
 	},
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"Ov" = (
-/obj/structure/chair/office{
-	dir = 4
+/obj/item/folder{
+	pixel_x = 4;
+	pixel_y = 4
 	},
+/obj/item/pen,
 /turf/open/floor/wood,
 /area/station/service/library)
 "Ox" = (
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/deck,
 /turf/open/floor/wood,
-/area/station/commons/lounge)
-"Oy" = (
-/turf/open/floor/plating,
 /area/station/commons/lounge)
 "Oz" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -2068,6 +2067,10 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/service/kitchen)
+"OA" = (
+/obj/vehicle/ridden/janicart,
+/turf/open/floor/iron/dark,
+/area/station/service/janitor)
 "OC" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/growing/tray,
@@ -2077,33 +2080,38 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"OQ" = (
-/obj/structure/chair/pew/left{
-	dir = 4
+"OD" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
 	},
-/turf/open/floor/iron/chapel{
-	dir = 6
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"OY" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "chapel_shutters_parlour";
+	name = "Chapel Shutters"
 	},
-/area/station/service/chapel)
-"OR" = (
+/turf/open/floor/plating,
+/area/station/service/chapel/office)
+"Ph" = (
+/obj/structure/easel,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas/twentythree_nineteen,
+/obj/item/canvas/twentythree_twentythree,
+/obj/structure/sign/painting/library{
+	pixel_y = 32
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"Pm" = (
 /obj/structure/chair/pew{
 	dir = 4
 	},
 /turf/open/floor/iron/chapel{
-	dir = 8
+	dir = 10
 	},
 /area/station/service/chapel)
-"OT" = (
-/obj/structure/chair/pew/right{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 5
-	},
-/area/station/service/chapel)
-"Ph" = (
-/turf/closed/wall,
-/area/station/service/library/private)
 "Pr" = (
 /obj/machinery/deepfryer,
 /obj/structure/railing{
@@ -2111,27 +2119,21 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
-"Ps" = (
-/obj/machinery/vending/wardrobe/curator_wardrobe,
-/turf/open/floor/iron/vaporwave,
-/area/station/service/library/private)
-"Px" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet/royalblack,
-/area/station/service/chapel/office)
 "Py" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
+"PC" = (
+/obj/structure/window/spawner/directional/south,
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"PI" = (
+/turf/closed/wall,
+/area/station/service/chapel/office)
 "PM" = (
 /obj/item/kirbyplants/potty,
 /turf/open/floor/wood,
 /area/station/commons/lounge)
-"PP" = (
-/obj/structure/sink/directional/south,
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
 "PS" = (
 /obj/item/wrench,
 /obj/item/stack/sheet/glass{
@@ -2144,61 +2146,36 @@
 /obj/item/stack/cable_coil,
 /obj/structure/closet,
 /obj/item/vending_refill/cigarette,
+/obj/item/storage/photo_album/bar,
+/obj/item/hand_labeler,
+/obj/machinery/digital_clock/directional/north,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
-"PU" = (
-/obj/structure/table/wood,
-/obj/machinery/cassette_deck{
-	pixel_y = 8
-	},
+"Qa" = (
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/vending/coffee,
 /turf/open/floor/wood,
 /area/station/service/library)
-"Qf" = (
-/obj/structure/chair/pew/right{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 9
-	},
-/area/station/service/chapel)
-"Qk" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
 "Qv" = (
 /turf/open/floor/wood,
 /area/station/commons/lounge)
-"QA" = (
-/obj/effect/landmark/start/janitor,
-/obj/structure/chair/stool/directional/north,
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"QH" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/green{
+"QM" = (
+/obj/structure/chair/pew/right{
 	dir = 4
 	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
-"QL" = (
-/obj/structure/table/wood/fancy/royalblue,
-/obj/effect/spawner/random/decoration/statue{
-	spawn_loot_chance = 50
-	},
-/obj/machinery/door/window{
-	dir = 8;
-	name = "Secure Art Exhibition";
-	req_access = list("library")
-	},
-/obj/structure/window/spawner/directional/south,
-/turf/open/floor/wood,
-/area/station/service/library)
+/turf/open/floor/iron/chapel,
+/area/station/service/chapel)
 "QQ" = (
 /obj/structure/stairs/north,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
+"QR" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern{
+	pixel_y = 7
+	},
+/turf/open/floor/carpet,
+/area/station/service/chapel)
 "Ra" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/beaker/large{
@@ -2211,12 +2188,11 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
-"Rg" = (
-/obj/effect/turf_decal/siding/purple{
-	dir = 8
-	},
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
+"Rq" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet/royalblack,
+/area/station/service/chapel/office)
 "Rr" = (
 /obj/machinery/holopad,
 /turf/open/floor/wood,
@@ -2227,12 +2203,6 @@
 	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
-"Rx" = (
-/obj/machinery/holopad,
-/turf/open/floor/iron/chapel{
-	dir = 4
-	},
-/area/station/service/chapel)
 "RJ" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/rag{
@@ -2240,6 +2210,31 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
+"RM" = (
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood,
+/area/station/service/library)
+"RU" = (
+/obj/machinery/computer/department_orders/service,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
+"RY" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Chapel Quarters"
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/crematorium,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
 "Sa" = (
 /obj/machinery/door/airlock/public{
 	name = "Kitchen"
@@ -2247,14 +2242,14 @@
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
 /turf/open/floor/iron,
 /area/station/service/kitchen)
-"Sg" = (
-/obj/structure/chair/pew{
-	dir = 4
+"Sd" = (
+/obj/machinery/door/airlock/hydroponics/glass{
+	name = "Hydroponics"
 	},
-/turf/open/floor/iron/chapel{
-	dir = 4
-	},
-/area/station/service/chapel)
+/obj/effect/mapping_helpers/airlock/access/all/service/hydroponics,
+/obj/effect/turf_decal/tile/green/fourcorners,
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
 "Sl" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -2269,10 +2264,14 @@
 	},
 /turf/open/floor/iron/checker,
 /area/station/service/theater)
-"Sp" = (
-/obj/structure/bodycontainer/morgue,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
+"Sq" = (
+/obj/structure/chair/pew/left{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 10
+	},
+/area/station/service/chapel)
 "Sr" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/wood,
@@ -2283,43 +2282,26 @@
 	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
-"Su" = (
-/obj/effect/spawner/random/vending/snackvend,
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"Sz" = (
-/obj/structure/altar_of_gods,
-/turf/open/floor/carpet,
-/area/station/service/chapel)
 "SC" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
-"SL" = (
-/obj/machinery/door/window/right/directional/north{
-	base_state = "left";
-	icon_state = "left";
-	name = "Library Desk Door";
-	req_access = list("library");
-	pixel_y = -2
-	},
-/turf/open/floor/wood,
-/area/station/service/library)
-"SN" = (
-/obj/machinery/door/airlock{
-	name = "Custodial Closet"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/access/all/service/janitor,
-/obj/effect/landmark/navigate_destination/janitor,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
+"SG" = (
+/obj/structure/chair/pew{
 	dir = 4
 	},
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
+/turf/open/floor/iron/chapel{
+	dir = 6
+	},
+/area/station/service/chapel)
+"SR" = (
+/obj/machinery/door/poddoor/massdriver_chapel{
+	dir = 4
+	},
+/obj/structure/fans/tiny,
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/plating,
+/area/station/service/chapel/office)
 "SY" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -2329,55 +2311,30 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/bar)
-"Td" = (
-/turf/open/floor/iron/chapel{
-	dir = 5
-	},
-/area/station/service/chapel)
-"Tg" = (
-/obj/structure/table/wood,
-/obj/item/storage/dice,
-/turf/open/floor/wood,
-/area/station/service/library)
-"Tl" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/service/library/private)
-"TB" = (
-/obj/structure/chair/pew/left{
+"Tp" = (
+/obj/structure/chair/pew{
 	dir = 4
 	},
 /turf/open/floor/iron/chapel{
-	dir = 1
-	},
-/area/station/service/chapel)
-"TC" = (
-/obj/structure/chair/office{
 	dir = 4
 	},
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
+/area/station/service/chapel)
+"Ts" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
 "TF" = (
 /mob/living/basic/pet/potty,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"TV" = (
-/obj/machinery/computer/slot_machine{
-	pixel_y = 2
+"UG" = (
+/obj/structure/chair/pew/left{
+	dir = 4
 	},
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"TY" = (
-/turf/open/floor/iron/stairs/medium{
-	dir = 8
+/turf/open/floor/iron/chapel{
+	dir = 4
 	},
-/area/station/service/chapel/office)
-"Us" = (
-/obj/machinery/disposal/bin,
-/turf/open/floor/wood,
-/area/station/service/library)
+/area/station/service/chapel)
 "UQ" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
@@ -2385,51 +2342,98 @@
 /mob/living/basic/goat/pete,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
+"UY" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Chapel Office"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"UZ" = (
+/obj/item/kirbyplants/organic/plant22,
+/turf/open/floor/wood,
+/area/station/commons/lounge)
+"Va" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
+/area/station/service/chapel)
+"Vc" = (
+/obj/structure/closet/crate/coffin,
+/turf/open/floor/plating,
+/area/station/service/chapel/office)
+"Vd" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/commons/lounge)
+"Vt" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/obj/effect/landmark/start/chaplain,
+/turf/open/floor/carpet/royalblack,
+/area/station/service/chapel/office)
 "Vw" = (
 /obj/effect/spawner/random/structure/musician/piano/random_piano,
 /turf/open/floor/carpet,
 /area/station/service/theater)
-"VE" = (
-/turf/open/floor/iron/chapel{
-	dir = 9
+"Vz" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
 	},
-/area/station/service/chapel)
-"VK" = (
-/turf/open/floor/carpet,
-/area/station/service/library)
-"VO" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/green{
+/turf/open/floor/iron,
+/area/station/commons/lounge)
+"VM" = (
+/obj/structure/chair/sofa/middle/brown{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/obj/machinery/disposal/bin,
-/turf/open/floor/iron,
-/area/station/service/hydroponics)
+/turf/open/floor/wood,
+/area/station/service/library)
 "VP" = (
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/station/service/library)
+"VQ" = (
+/turf/closed/wall,
+/area/station/hallway/secondary/service)
 "VV" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/table,
 /obj/machinery/chem_dispenser/drinks/beer,
 /turf/open/floor/iron,
 /area/station/service/bar)
+"Wa" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Chapel"
+	},
+/turf/open/floor/carpet,
+/area/station/service/chapel)
 "Wk" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
-"WB" = (
-/obj/structure/chair/pew/left{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 8
-	},
+"Wl" = (
+/obj/machinery/vending/games,
+/turf/open/floor/wood,
+/area/station/service/library)
+"Wr" = (
+/turf/closed/wall,
 /area/station/service/chapel)
+"Ws" = (
+/obj/structure/sink/directional/south,
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
 "WG" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -2438,39 +2442,7 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/bar)
-"WP" = (
-/turf/open/floor/iron/vaporwave,
-/area/station/service/library/private)
-"WR" = (
-/obj/structure/chair/pew/left{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 4
-	},
-/area/station/service/chapel)
-"Xa" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair/stool/bar/directional/east,
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
-	},
-/turf/open/floor/iron,
-/area/station/commons/lounge)
-"Xe" = (
-/obj/structure/mop_bucket/janitorialcart,
-/obj/item/mop,
-/obj/item/reagent_containers/cup/bucket,
-/obj/item/radio/intercom/directional/east,
-/obj/item/storage/bag/trash,
-/obj/effect/turf_decal/bot/right,
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"Xk" = (
-/obj/structure/chair/sofa/right/brown,
-/turf/open/floor/wood,
-/area/station/service/library)
-"Xq" = (
+"WK" = (
 /obj/machinery/mass_driver/chapelgun{
 	dir = 4
 	},
@@ -2485,37 +2457,101 @@
 /obj/structure/sign/warning/vacuum/external/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/office)
-"XG" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Chapel"
+"Xa" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair/stool/bar/directional/east,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
+/turf/open/floor/iron,
+/area/station/commons/lounge)
+"Xe" = (
+/turf/closed/wall,
+/area/station/service/hydroponics)
+"Xm" = (
+/obj/structure/table/wood,
 /turf/open/floor/carpet,
 /area/station/service/chapel)
-"XJ" = (
-/obj/structure/table,
-/obj/item/storage/box/mousetraps{
-	pixel_x = -3;
-	pixel_y = 8
+"XM" = (
+/obj/structure/noticeboard/directional/north{
+	desc = "A memorial wall for pinning mementos upon.";
+	name = "memorial board"
 	},
-/obj/item/storage/box/mousetraps{
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box{
 	pixel_x = -2;
-	pixel_y = 3
+	pixel_y = 2
 	},
-/obj/item/restraints/legcuffs/beartrap{
-	pixel_x = 2;
-	pixel_y = 5
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/carpet,
+/area/station/service/chapel/office)
+"XN" = (
+/obj/structure/sign/plaques/kiddie/badger{
+	pixel_y = 32
 	},
-/obj/item/restraints/legcuffs/beartrap,
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"XK" = (
-/obj/machinery/vending/wardrobe/jani_wardrobe,
-/turf/open/floor/iron/dark,
-/area/station/service/janitor)
-"XV" = (
-/obj/structure/chair/sofa/corner/brown,
+/obj/item/food/grown/poppy{
+	pixel_y = 2
+	},
+/obj/item/food/grown/poppy{
+	pixel_y = 2
+	},
+/obj/item/food/grown/poppy{
+	pixel_y = 2
+	},
+/obj/item/food/grown/poppy{
+	pixel_y = 2
+	},
+/obj/item/food/grown/poppy{
+	pixel_y = 2
+	},
+/obj/machinery/light/small/directional/north,
+/obj/structure/table/wood,
+/turf/open/floor/carpet,
+/area/station/service/chapel/office)
+"XP" = (
+/obj/structure/table/wood/fancy/royalblue,
+/obj/effect/spawner/random/decoration/statue{
+	spawn_loot_chance = 50
+	},
+/obj/machinery/door/window{
+	name = "Secure Art Exhibition";
+	req_access = list("library")
+	},
+/obj/structure/window/spawner/directional/west,
 /turf/open/floor/wood,
 /area/station/service/library)
+"XS" = (
+/obj/structure/table,
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/obj/item/grenade/chem_grenade/cleaner,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/key/janitor{
+	pixel_y = -7
+	},
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/science,
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"XU" = (
+/turf/open/floor/carpet/grimey,
+/area/station/service/chapel/office)
+"XW" = (
+/obj/structure/chair/stool/directional/east,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/station/commons/lounge)
 "XX" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /obj/effect/turf_decal/tile/green{
@@ -2526,40 +2562,48 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"Yf" = (
-/obj/structure/chair/pew/left{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 5
-	},
-/area/station/service/chapel)
-"YL" = (
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/iron/checker,
-/area/station/service/janitor)
-"YP" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Library"
-	},
-/turf/open/floor/carpet,
-/area/station/service/library)
-"Zi" = (
-/obj/machinery/vending/wardrobe/chap_wardrobe,
-/turf/open/floor/carpet/grimey,
-/area/station/service/chapel/office)
-"Zq" = (
-/obj/structure/chair/pew{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel{
-	dir = 1
-	},
-/area/station/service/chapel)
-"ZA" = (
+"Yd" = (
 /obj/structure/chair/sofa/middle/brown,
 /turf/open/floor/wood,
 /area/station/service/library)
+"Yf" = (
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
+"Yj" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/chapel{
+	dir = 8
+	},
+/area/station/service/chapel)
+"Yq" = (
+/obj/structure/displaycase/trophy,
+/turf/open/floor/wood,
+/area/station/service/library)
+"YE" = (
+/obj/machinery/portable_atmospherics/canister/water_vapor,
+/obj/effect/turf_decal/bot/right,
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
+/area/station/service/janitor)
+"YP" = (
+/turf/open/floor/carpet,
+/area/station/service/chapel)
+"Zi" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics)
+"Zz" = (
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
 "ZB" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/table/reinforced,
@@ -2570,11 +2614,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen/coldroom)
-"ZJ" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/flare/candle,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel)
 "ZR" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -2617,23 +2656,15 @@
 /obj/structure/mirror/directional/north,
 /turf/open/floor/iron/checker,
 /area/station/service/theater)
+"ZV" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/wood,
+/area/station/service/library)
 "ZW" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/station/service/bar)
-"ZX" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/station/commons/lounge)
-"ZZ" = (
-/obj/structure/chair/pew/right{
-	dir = 4
-	},
-/turf/open/floor/iron/chapel,
-/area/station/service/chapel)
 
 (1,1,1) = {"
 Oi
@@ -34133,12 +34164,12 @@ Oi
 Oi
 Oi
 Oi
-yE
-ju
-ju
-ju
-ju
-yE
+Jh
+hk
+hk
+hk
+hk
+Jh
 Oi
 Oi
 Oi
@@ -34387,15 +34418,15 @@ Oi
 Oi
 Oi
 Oi
-hr
-hr
-hr
-hr
-hr
-ju
-ju
-yE
-yE
+tY
+tY
+tY
+tY
+tY
+hk
+hk
+Jh
+Jh
 Oi
 Oi
 Oi
@@ -34644,14 +34675,14 @@ Oi
 Oi
 Oi
 Oi
-hr
+tY
 ZH
 Nc
 sw
-hr
+tY
 Ob
 Ob
-yE
+Jh
 Oi
 Oi
 Oi
@@ -34899,16 +34930,16 @@ Oi
 Oi
 Oi
 Oi
-hr
-hr
-hr
+tY
+tY
+tY
 GK
 St
 St
-hr
-yE
-yE
-yE
+tY
+Jh
+Jh
+Jh
 Oi
 Oi
 Oi
@@ -35156,13 +35187,13 @@ Oi
 Oi
 Oi
 Oi
-hr
+tY
 QQ
 cK
 yK
 UQ
 lN
-hr
+tY
 yB
 yB
 yg
@@ -35413,9 +35444,9 @@ Oi
 Oi
 Oi
 Oi
-hr
-hr
-hr
+tY
+tY
+tY
 GK
 Rw
 bS
@@ -35672,11 +35703,11 @@ Oi
 Oi
 Oi
 Oi
-hr
+tY
 Ei
 Gj
 HL
-hr
+tY
 yB
 yB
 yg
@@ -35929,11 +35960,11 @@ Oi
 Oi
 Oi
 Oi
-hr
-hr
-hr
-hr
-hr
+tY
+tY
+tY
+tY
+tY
 jU
 jU
 yg
@@ -38222,10 +38253,10 @@ Oi
 Oi
 Oi
 yg
-lY
-lY
-lY
-lY
+PI
+PI
+PI
+PI
 Oi
 Oi
 Oi
@@ -38477,14 +38508,14 @@ Oi
 Oi
 Oi
 Oi
-lY
-lY
-Zi
-kY
-uQ
-lY
-lY
-lY
+PI
+PI
+Hi
+NP
+Fo
+PI
+PI
+PI
 Oi
 Oi
 Oi
@@ -38734,14 +38765,14 @@ Oi
 Oi
 Oi
 Oi
-lY
-uU
-uU
-uU
-uU
-za
-gf
-lY
+PI
+XU
+XU
+XU
+XU
+Cc
+KI
+PI
 Oi
 Oi
 Oi
@@ -38991,16 +39022,16 @@ Oi
 Oi
 Oi
 Oi
-lY
-TY
-uU
-TC
-TC
-lY
-lY
-lY
-lY
-lY
+PI
+pX
+XU
+EY
+EY
+PI
+PI
+PI
+PI
+PI
 Oi
 Oi
 Oi
@@ -39248,16 +39279,16 @@ Oi
 Oi
 Oi
 Oi
-lY
-lY
-uU
-Px
-bq
-kC
-lY
-LU
-uU
-lY
+PI
+PI
+XU
+Rq
+sa
+LM
+PI
+iX
+XU
+PI
 Oi
 Oi
 Oi
@@ -39505,16 +39536,16 @@ Oi
 Oi
 Oi
 Oi
-lY
-uU
-uU
-GH
-AZ
-kS
-fw
-uU
-uU
-lY
+PI
+XU
+XU
+EE
+Vt
+cW
+FJ
+XU
+XU
+PI
 Oi
 Oi
 Oi
@@ -39762,16 +39793,16 @@ Oi
 Oi
 Oi
 Oi
-lY
-uU
-uU
-kS
-kS
-kS
-lY
-Bi
-gG
-lY
+PI
+XU
+XU
+cW
+cW
+cW
+PI
+cg
+kE
+PI
 Oi
 Oi
 Oi
@@ -40019,16 +40050,16 @@ Oi
 Oi
 Oi
 Oi
-lY
-lY
-lY
-lY
-lY
-iK
-lY
-lY
-lY
-lY
+PI
+PI
+PI
+PI
+PI
+Eo
+PI
+PI
+PI
+PI
 Oi
 Oi
 Oi
@@ -40280,9 +40311,9 @@ Oi
 Oi
 Oi
 Oi
-lY
-ow
-lY
+PI
+pp
+PI
 Oi
 Oi
 Oi
@@ -40537,9 +40568,9 @@ Oi
 Oi
 Oi
 Oi
-lY
-lY
-lY
+PI
+PI
+PI
 Oi
 Oi
 Oi
@@ -80389,7 +80420,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -80644,8 +80675,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -80899,8 +80930,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -81153,10 +81184,10 @@ az
 az
 az
 az
+jU
+jU
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -81408,12 +81439,12 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -81669,11 +81700,11 @@ az
 az
 az
 az
+jU
 az
+jU
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -81930,8 +81961,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -82443,8 +82474,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -82699,9 +82730,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -82955,7 +82986,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -83212,7 +83243,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -83469,7 +83500,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -83726,8 +83757,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -84241,9 +84272,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -84498,7 +84529,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -84753,8 +84784,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -85010,7 +85041,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -85267,7 +85298,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -85525,7 +85556,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -89669,9 +89700,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -89891,7 +89922,7 @@ az
 az
 az
 az
-cx
+iu
 az
 az
 az
@@ -89921,11 +89952,11 @@ az
 az
 az
 az
+jU
 az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -90085,11 +90116,16 @@ az
 az
 az
 az
+jU
+jU
+jU
+jU
 az
 az
 az
 az
 az
+jU
 az
 az
 az
@@ -90172,16 +90208,11 @@ az
 az
 az
 az
+jU
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -90342,12 +90373,16 @@ az
 az
 az
 az
+jU
 az
 az
+jU
+jU
 az
 az
 az
 az
+jU
 az
 az
 az
@@ -90434,13 +90469,9 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -90599,13 +90630,16 @@ az
 az
 az
 az
+jU
 az
 az
 az
+jU
 az
 az
 az
 az
+jU
 az
 az
 az
@@ -90639,7 +90673,12 @@ az
 az
 az
 az
+jU
+jU
 az
+jU
+jU
+jU
 az
 az
 az
@@ -90683,22 +90722,14 @@ az
 az
 az
 az
+jU
 az
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -90856,13 +90887,16 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
+jU
 az
 az
 az
+jU
 az
 az
 az
@@ -90895,6 +90929,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -90944,18 +90979,14 @@ az
 az
 az
 az
+jU
 az
 az
 az
+jU
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -91113,12 +91144,16 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
+jU
 az
 az
+jU
+jU
 az
 az
 az
@@ -91152,6 +91187,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -91169,6 +91206,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -91196,24 +91236,15 @@ az
 az
 az
 az
+jU
+jU
 az
 az
+jU
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -91376,6 +91407,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -91410,6 +91444,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -91427,6 +91463,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -91455,18 +91494,10 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -91669,6 +91700,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -91688,6 +91720,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -91743,15 +91778,11 @@ az
 az
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -91891,6 +91922,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -91924,6 +91958,11 @@ az
 az
 az
 az
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -91938,6 +91977,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -91992,19 +92034,8 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -92147,8 +92178,10 @@ az
 az
 az
 az
+jU
 az
 az
+jU
 az
 az
 az
@@ -92201,6 +92234,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -92255,15 +92291,10 @@ az
 az
 az
 az
+jU
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -92404,8 +92435,10 @@ az
 az
 az
 az
+jU
 az
 az
+jU
 az
 az
 az
@@ -92458,6 +92491,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -92512,15 +92548,10 @@ az
 az
 az
 az
+jU
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -92661,8 +92692,11 @@ az
 az
 az
 az
+jU
+jU
 az
 az
+jU
 az
 az
 az
@@ -92697,6 +92731,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -92711,6 +92748,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -92765,18 +92805,9 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -92918,6 +92949,11 @@ az
 az
 az
 az
+jU
+az
+az
+az
+jU
 az
 az
 az
@@ -92952,6 +92988,10 @@ az
 az
 az
 az
+jU
+jU
+az
+jU
 az
 az
 az
@@ -92965,18 +93005,9 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -93179,6 +93210,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -93213,6 +93245,10 @@ az
 az
 az
 az
+jU
+jU
+az
+jU
 az
 az
 az
@@ -93226,14 +93262,9 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -93488,6 +93519,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -93541,10 +93575,7 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -93711,6 +93742,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -93742,6 +93776,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -93795,19 +93832,13 @@ az
 az
 az
 az
+jU
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -93947,6 +93978,10 @@ az
 az
 az
 az
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -93964,6 +93999,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -93980,15 +94018,8 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -94033,6 +94064,13 @@ az
 az
 az
 az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -94051,14 +94089,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -94203,6 +94234,11 @@ az
 az
 az
 az
+jU
+jU
+az
+az
+jU
 az
 az
 az
@@ -94220,6 +94256,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -94235,17 +94274,9 @@ az
 az
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -94290,6 +94321,16 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+az
+az
+jU
+jU
+jU
 az
 az
 az
@@ -94305,17 +94346,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -94460,6 +94491,12 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -94476,6 +94513,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -94491,18 +94531,9 @@ az
 az
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -94547,6 +94578,16 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -94562,17 +94603,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -94717,6 +94748,12 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -94733,6 +94770,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -94745,22 +94785,13 @@ az
 az
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -94804,7 +94835,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -94980,6 +95011,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -94995,10 +95027,9 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -95061,6 +95092,16 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -95076,22 +95117,12 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -95237,6 +95268,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -95252,10 +95284,9 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -95319,6 +95350,15 @@ az
 az
 az
 az
+jU
+jU
+az
+az
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -95339,16 +95379,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -95510,9 +95541,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -95555,11 +95586,35 @@ az
 az
 az
 az
-rq
-rq
-rq
-rq
-rq
+yU
+yU
+yU
+yU
+yU
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -95581,31 +95636,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -95767,9 +95798,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -95811,13 +95842,13 @@ az
 az
 az
 az
-rq
-rq
-XK
-Jp
-we
-rq
-rq
+yU
+yU
+MW
+pY
+OA
+yU
+yU
 az
 az
 az
@@ -95862,7 +95893,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -96024,9 +96055,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -96068,13 +96099,13 @@ az
 az
 az
 yg
-rq
-tJ
-Rg
-Rg
-Rg
-Ou
-rq
+yU
+YE
+MU
+MU
+MU
+cZ
+yU
 az
 az
 az
@@ -96281,9 +96312,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -96325,13 +96356,13 @@ az
 az
 az
 zZ
-rq
-YL
-yO
-ay
-yO
-yO
-rq
+yU
+ca
+kn
+xJ
+kn
+kn
+yU
 az
 az
 az
@@ -96538,9 +96569,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -96582,13 +96613,13 @@ az
 az
 az
 zZ
-rq
-yO
-yO
-XJ
-QA
-yO
-rq
+yU
+kn
+kn
+pT
+Fu
+kn
+yU
 az
 az
 az
@@ -96795,9 +96826,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -96839,13 +96870,13 @@ az
 az
 az
 zZ
-rq
-PP
-yO
-wW
-yO
-Xe
-rq
+yU
+Ws
+kn
+XS
+kn
+jE
+yU
 az
 az
 az
@@ -97052,9 +97083,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -97096,13 +97127,13 @@ az
 az
 az
 yg
-rq
-rq
-SN
-rq
-hl
-rq
-rq
+yU
+yU
+st
+yU
+ux
+yU
+yU
 az
 az
 az
@@ -97309,15 +97340,15 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 jU
 jU
 jU
@@ -97566,15 +97597,15 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 jU
 jU
 jU
@@ -97823,15 +97854,6 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
 jU
 jU
 jU
@@ -97880,6 +97902,15 @@ jU
 jU
 jU
 jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -97919,11 +97950,11 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -98084,23 +98115,23 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 oa
 oa
 oa
 oa
 oa
-YP
-YP
+sM
+sM
 oa
-Ph
-Tl
-Tl
-Tl
-Ph
+tM
+ke
+ke
+ke
+tM
 yg
 yg
 zZ
@@ -98124,11 +98155,11 @@ yg
 yg
 yg
 yg
-rR
-Fr
+VQ
+Ke
 da
-Fr
-rR
+Ke
+VQ
 kL
 kL
 kL
@@ -98174,6 +98205,13 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -98200,16 +98238,9 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -98341,23 +98372,23 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 oa
-gz
-qj
-gz
-qj
-VK
-VK
-Ov
-Ph
-Lw
-qf
-qf
-Ph
+Yq
+ju
+Yq
+ju
+DD
+DD
+sc
+tM
+kF
+ts
+ts
+tM
 zZ
 zZ
 zZ
@@ -98381,11 +98412,11 @@ yg
 zZ
 zZ
 zZ
-jb
-pw
-pw
-pw
-rR
+ni
+Zz
+Zz
+oX
+VQ
 az
 az
 az
@@ -98434,6 +98465,11 @@ az
 az
 az
 az
+jU
+az
+az
+az
+jU
 az
 az
 az
@@ -98454,16 +98490,11 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -98598,23 +98629,23 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 oa
 oa
-gz
-qj
-gz
-qj
-VK
-VK
-MY
-Ph
-WP
-WP
-WP
-Ph
+Yq
+ju
+Yq
+ju
+DD
+DD
+sz
+tM
+oS
+oS
+oS
+tM
 zZ
 zZ
 zZ
@@ -98638,11 +98669,11 @@ zZ
 zZ
 zZ
 zZ
-rR
-MD
-pw
-pw
-rR
+VQ
+RU
+Zz
+Zz
+VQ
 az
 az
 az
@@ -98688,6 +98719,14 @@ az
 az
 az
 az
+jU
+az
+az
+jU
+az
+az
+az
+jU
 az
 az
 az
@@ -98707,20 +98746,12 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -98855,23 +98886,23 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 oa
-Ja
-qj
-qj
-qj
-qj
-VK
-VK
-fD
-Ph
-WP
-WP
-WP
-Ph
+wQ
+ju
+ju
+ju
+ju
+DD
+DD
+ys
+tM
+oS
+oS
+oS
+tM
 zZ
 zZ
 zZ
@@ -98895,11 +98926,11 @@ zZ
 zZ
 yg
 yg
-rR
-uC
-pw
-pw
-rR
+VQ
+GM
+Zz
+Zz
+VQ
 az
 az
 az
@@ -98945,6 +98976,10 @@ az
 az
 az
 az
+jU
+az
+az
+jU
 az
 az
 az
@@ -98970,14 +99005,10 @@ az
 az
 az
 az
+jU
+jU
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -99112,23 +99143,23 @@ az
 az
 az
 az
-az
-az
-az
-kh
-VK
-VK
-VK
-VK
-VK
-VK
-VK
-PU
-Ph
-WP
-WP
-NS
-Ph
+jU
+jU
+jU
+Be
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+vN
+tM
+oS
+oS
+aT
+tM
 zZ
 zZ
 zZ
@@ -99145,18 +99176,18 @@ yJ
 GB
 GB
 iy
-Oy
+eJ
 zZ
 yg
 zZ
 zZ
 zZ
 zZ
-rR
-FV
-pw
-pw
-rR
+VQ
+IS
+Zz
+Zz
+VQ
 az
 az
 az
@@ -99202,6 +99233,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -99231,12 +99263,11 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -99369,23 +99400,23 @@ az
 az
 az
 az
-az
-az
-az
-kh
-VK
-VK
-VK
-VK
-VK
-VK
-VK
-zi
-Ph
-Dh
-WP
-Ps
-Ph
+jU
+jU
+jU
+Be
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+lc
+tM
+fw
+oS
+la
+tM
 zZ
 zZ
 zZ
@@ -99407,13 +99438,13 @@ kl
 kl
 kl
 kl
-GU
 kl
-rR
-gc
-qF
-pw
-rR
+kl
+VQ
+Fq
+Ts
+um
+VQ
 az
 az
 az
@@ -99490,11 +99521,11 @@ az
 az
 az
 az
+jU
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -99626,23 +99657,23 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 oa
-EB
-qj
-Ov
-qj
-ys
-VK
-VK
-qj
-Ph
-Ph
-hw
-Ph
-Ph
+Wl
+ju
+sc
+ju
+lY
+DD
+DD
+ju
+tM
+tM
+yp
+tM
+tM
 zZ
 zZ
 jt
@@ -99667,10 +99698,10 @@ po
 pd
 rx
 mB
-pw
-pw
+Zz
+Zz
 SC
-rR
+VQ
 az
 az
 az
@@ -99722,6 +99753,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -99745,9 +99778,7 @@ az
 az
 az
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -99883,22 +99914,22 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 oa
 oa
-Xk
-qB
-hx
-qj
-VK
-VK
-qj
-NR
-qj
-qj
-bI
+Nj
+du
+oR
+ju
+DD
+DD
+ju
+qz
+ju
+ju
+lk
 oa
 zZ
 zZ
@@ -99907,10 +99938,10 @@ JS
 Gt
 jt
 Ji
-tt
-oI
-xV
+rO
+or
 Xa
+gz
 GB
 GB
 GB
@@ -99923,11 +99954,11 @@ Dp
 Dp
 Dp
 Sa
-pw
-pw
-pw
-pJ
-rR
+Zz
+Zz
+Zz
+An
+VQ
 az
 az
 yg
@@ -99945,6 +99976,11 @@ jU
 jU
 jU
 jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -99971,6 +100007,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -99996,15 +100035,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -100140,39 +100171,39 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 oa
-ZA
-Tg
-wN
-EY
-VK
-VK
-qj
-ah
-pl
-qj
-oK
+Yd
+yV
+Oo
+VP
+DD
+DD
+ju
+zf
+ch
+ju
+IK
 oa
 zZ
 jt
 jt
-re
+ms
 re
 jt
 JC
 rW
 ZB
 ZB
-Cl
+uH
 oz
 GB
 GB
 GB
-GM
+mA
 Oz
 Dp
 uw
@@ -100180,11 +100211,11 @@ Dp
 Dp
 Wk
 kl
-rR
+VQ
 Do
 Ac
-Fr
-rR
+Ke
+VQ
 az
 az
 yg
@@ -100202,6 +100233,38 @@ jU
 jU
 jU
 jU
+jU
+jU
+jU
+jU
+jU
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
+jU
+jU
 az
 az
 az
@@ -100229,39 +100292,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -100397,22 +100428,22 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 oa
-XV
-rV
-sc
-qj
-VK
-VK
-qj
-SL
-mZ
-qj
-EC
+DY
+VM
+Er
+ju
+DD
+DD
+ju
+pg
+lX
+ju
+uO
 oa
 zZ
 jt
@@ -100426,10 +100457,10 @@ rW
 rW
 hv
 WG
-BG
+ij
 GB
 GB
-zt
+Vd
 EW
 Dp
 Cr
@@ -100439,9 +100470,9 @@ vk
 kl
 kl
 oe
-Bw
+xR
 ej
-uO
+Xe
 hX
 hX
 yg
@@ -100459,6 +100490,11 @@ jU
 jU
 jU
 jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -100484,12 +100520,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -100654,21 +100685,21 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 oa
 oa
 oa
 oa
-um
-VK
-VK
-Us
+aS
+DD
+DD
+lT
 oa
 oa
-Mx
+fE
 oa
 oa
 zZ
@@ -100686,7 +100717,7 @@ SY
 dT
 GB
 GB
-zt
+Vd
 ql
 Py
 RJ
@@ -100696,14 +100727,14 @@ hh
 aA
 kl
 zG
-gO
+bq
 Mf
 JL
-Bw
-Bw
+xR
+xR
 XX
 sh
-rb
+kf
 jU
 jU
 jU
@@ -100747,9 +100778,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -100911,19 +100942,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+yg
 oa
-jX
-qj
-qj
-VK
-VK
-qj
-MJ
+Ph
+ju
+ju
+DD
+DD
+ju
+ZV
 oa
 oa
 oa
@@ -100940,10 +100971,10 @@ rW
 rW
 hv
 ry
-Fm
+xk
 GB
 GB
-zt
+Vd
 EW
 Dp
 Of
@@ -100952,15 +100983,15 @@ Dp
 Pr
 kl
 kl
-kx
-gO
-gO
-gO
-gO
-gO
-gO
-IT
-rb
+ew
+bq
+bq
+bq
+bq
+bq
+bq
+Zi
+kf
 jU
 jU
 jU
@@ -101007,6 +101038,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -101025,6 +101058,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -101034,11 +101068,8 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -101168,19 +101199,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
 oa
-oE
-qj
-qj
-VK
-VK
-qj
-MB
+Jn
+ju
+ju
+DD
+DD
+ju
+rh
 oa
 zZ
 zZ
@@ -101195,12 +101226,12 @@ lr
 rW
 ZB
 ZB
-zE
+Cl
 cr
 GB
 GB
 GB
-ec
+zt
 ur
 Dp
 uw
@@ -101209,15 +101240,15 @@ Dp
 Hv
 rx
 gP
-EF
+OD
 uj
 wZ
-gO
+bq
 uj
 wZ
-gO
-IT
-rb
+bq
+Zi
+kf
 jU
 jU
 jU
@@ -101264,6 +101295,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -101283,6 +101315,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -101292,9 +101325,7 @@ az
 az
 az
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -101425,19 +101456,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
 oa
-yo
-qj
-qj
-VK
-VK
-qj
-DH
+AF
+ju
+ju
+DD
+DD
+ju
+el
 oa
 zZ
 zZ
@@ -101449,10 +101480,10 @@ Jz
 CX
 jt
 Mu
-nr
-hJ
-EH
+tt
+dd
 iU
+Vz
 GB
 GB
 GB
@@ -101465,16 +101496,16 @@ Dp
 Dp
 Dp
 ro
-rH
-gO
+JK
+bq
 uj
 wZ
 qS
 uj
 wZ
-gO
-hn
-yH
+bq
+wc
+Sd
 jU
 jU
 jU
@@ -101541,17 +101572,17 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -101682,19 +101713,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
 oa
-jX
-qj
-ys
-VK
-VK
-qj
-Ab
+Ph
+ju
+lY
+DD
+DD
+ju
+Hb
 oa
 zZ
 yg
@@ -101723,15 +101754,15 @@ tG
 uX
 rx
 kP
-gO
+bq
 uj
 wZ
-gO
+bq
 uj
 wZ
-gO
-IT
-rb
+bq
+Zi
+kf
 jU
 jU
 jU
@@ -101799,6 +101830,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -101806,9 +101838,8 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -101939,20 +101970,20 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
 oa
-se
-qj
-qj
-VK
-VK
-qj
-qj
-LO
+wy
+ju
+ju
+DD
+DD
+ju
+ju
+yv
 zZ
 zZ
 zZ
@@ -101963,32 +101994,32 @@ jt
 jt
 jt
 jt
-ZX
-mb
-mb
-mb
-ZX
-ZX
-ZX
-ZX
+xq
+XW
+XW
+XW
+xq
+xq
+xq
+xq
 Fe
 kl
 kl
 kl
 kl
 kl
-GU
+kl
 kl
 dP
-gO
-gO
+bq
+bq
 TF
-gO
-gO
-gO
-ve
-Ii
-rb
+bq
+bq
+bq
+pj
+nr
+kf
 jU
 jU
 jU
@@ -102034,6 +102065,13 @@ az
 az
 az
 az
+jU
+jU
+jU
+jU
+az
+az
+jU
 az
 az
 az
@@ -102049,6 +102087,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -102056,16 +102095,8 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -102196,19 +102227,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
 oa
-Jk
-qj
-qj
-VK
-VK
-qj
-gd
+XP
+ju
+ju
+DD
+DD
+ju
+ya
 oa
 zZ
 yg
@@ -102219,7 +102250,7 @@ zZ
 zZ
 zZ
 om
-TV
+AM
 Qv
 ol
 Ox
@@ -102237,15 +102268,15 @@ zZ
 zZ
 yg
 jv
-gO
-gO
-gO
-gO
-gO
-ve
-VO
-rb
-rb
+bq
+bq
+bq
+bq
+bq
+pj
+AE
+kf
+kf
 jU
 jU
 jU
@@ -102290,6 +102321,13 @@ az
 az
 az
 az
+jU
+az
+az
+az
+jU
+az
+jU
 az
 az
 az
@@ -102306,6 +102344,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -102313,15 +102352,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -102453,19 +102484,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
 oa
-dY
-QL
+GT
+oi
 De
-VK
-VK
-qj
-DH
+DD
+DD
+ju
+el
 oa
 zZ
 yg
@@ -102476,7 +102507,7 @@ zZ
 zZ
 zZ
 om
-TV
+AM
 Qv
 gn
 Ox
@@ -102496,12 +102527,12 @@ yg
 eb
 OC
 OC
-QH
+mT
 OC
 OC
-Ii
-rb
-rb
+nr
+kf
+kf
 jU
 jU
 jU
@@ -102546,6 +102577,13 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -102563,22 +102601,15 @@ az
 az
 az
 az
+jU
+az
+jU
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -102710,19 +102741,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
 oa
 oa
 oa
-dH
-VK
-VK
-qj
-bd
+Qa
+DD
+DD
+ju
+RM
 oa
 zZ
 zZ
@@ -102750,14 +102781,14 @@ yg
 zZ
 yg
 yg
-rb
-rb
-rb
-yH
-rb
-rb
-rb
-rb
+kf
+kf
+kf
+Sd
+kf
+kf
+kf
+kf
 jU
 jU
 jU
@@ -102803,6 +102834,11 @@ az
 az
 az
 az
+jU
+az
+jU
+az
+jU
 az
 az
 az
@@ -102830,12 +102866,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -102967,19 +102998,19 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+zZ
+zZ
+zZ
 oa
-GO
-VK
-VK
-qj
-hZ
+CU
+DD
+DD
+ju
+bp
 oa
 zZ
 zZ
@@ -102990,7 +103021,7 @@ yg
 yg
 zZ
 zZ
-Oy
+eJ
 Qv
 Qv
 Qv
@@ -103060,12 +103091,12 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -103224,17 +103255,17 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+yg
+yg
+yg
+yg
 oa
 oa
-YP
-YP
+sM
+sM
 oa
 oa
 oa
@@ -103249,7 +103280,7 @@ yg
 yg
 om
 om
-BM
+UZ
 mi
 Qv
 Qv
@@ -103257,7 +103288,7 @@ PM
 Qv
 Gm
 Sr
-Su
+wW
 yg
 zZ
 zZ
@@ -103477,15 +103508,15 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 jU
 jU
 jU
@@ -103734,15 +103765,15 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 jU
 jU
 jU
@@ -103991,15 +104022,15 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 jU
 jU
 jU
@@ -104248,31 +104279,31 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
-az
-az
-az
-lX
-lX
-Ef
-Ef
-Ef
-Ef
-XG
-XG
-Ef
-Ef
-Ef
-Ef
-lX
-lX
-lY
-lY
-lY
-lY
+Wr
+Wr
+im
+im
+im
+im
+Wa
+Wa
+im
+im
+im
+im
+Wr
+Wr
+PI
+PI
+PI
+PI
 jU
 jU
 jU
@@ -104505,35 +104536,35 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
-az
-az
-az
-lX
-zf
-VE
-dx
-nT
-ch
-FF
-FF
-nT
-ch
-VE
-dx
-zf
-bE
-Qk
-lY
-NJ
-lY
-lY
-lY
-lY
-lY
+Wr
+hu
+gv
+eH
+xW
+Kf
+YP
+YP
+xW
+Kf
+gv
+eH
+hu
+td
+Kv
+PI
+Kp
+PI
+PI
+PI
+PI
+PI
 jU
 jU
 jU
@@ -104762,35 +104793,35 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
-az
-az
-az
-lX
-jH
-Td
-KG
-Sg
-CZ
-FF
-FF
-DU
-Fg
-Yf
-Bz
-jH
-lY
-of
-lY
-TY
-mT
-NJ
-NJ
-NJ
-lY
+Wr
+oA
+gi
+jn
+Tp
+Fk
+YP
+YP
+Va
+rs
+uk
+cR
+oA
+PI
+Mr
+PI
+pX
+PC
+Kp
+Kp
+Kp
+PI
 yg
 yg
 yg
@@ -105019,35 +105050,35 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
-az
-az
-az
-lX
-ZJ
-nT
-yR
-oS
-yz
-FF
-FF
-Qf
-qU
-TB
-ch
-ZJ
-lY
-eN
-Kv
-uU
-mT
-NJ
-NJ
-NJ
-lY
+Wr
+GI
+xW
+Yj
+zi
+Sq
+YP
+YP
+tB
+Pm
+em
+Kf
+GI
+PI
+uv
+Dm
+XU
+PC
+Kp
+Kp
+Kp
+PI
 zZ
 zZ
 yg
@@ -105276,36 +105307,36 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
-az
-az
-az
-lX
-lX
-Hr
-ZZ
-Fh
-OQ
-FF
-FF
-OT
-DV
-WR
-aD
-lX
-lY
-lY
-lY
-er
-lY
-lY
-lY
-lY
-lY
-lY
+Wr
+Wr
+pP
+QM
+se
+uC
+YP
+YP
+BX
+SG
+UG
+hr
+Wr
+PI
+PI
+PI
+UY
+PI
+PI
+PI
+PI
+PI
+PI
 zZ
 yg
 jU
@@ -105339,8 +105370,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -105533,36 +105564,36 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
 az
-az
-az
-az
-lX
-VE
-ip
-Zq
-WB
-FF
-FF
-jY
-OR
-fc
-dx
-gV
-VP
-VP
-VP
-VP
-Om
-lY
-Sp
-GW
-uB
-lY
+Wr
+gv
+bj
+Mb
+ii
+YP
+YP
+eO
+vl
+hM
+eH
+AP
+Yf
+Yf
+Yf
+Yf
+jS
+PI
+gU
+Ko
+aw
+PI
 zZ
 yg
 jU
@@ -105594,11 +105625,11 @@ az
 az
 az
 az
+jU
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -105790,36 +105821,36 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
 az
-az
-az
-az
-lX
-Td
-Bz
-Rx
-aD
-FF
-FF
-Hr
-xE
-Td
-Bz
-lX
-VP
-VP
-VP
-VP
-VP
-He
-VP
-VP
-VP
-lY
+Wr
+gi
+cR
+vz
+hr
+YP
+YP
+pP
+hi
+gi
+cR
+Wr
+Yf
+Yf
+Yf
+Yf
+Yf
+RY
+Yf
+Yf
+Yf
+PI
 zZ
 yg
 jU
@@ -105850,13 +105881,13 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -106047,36 +106078,36 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
 az
-az
-az
-az
-lX
-mI
-BZ
-CS
-tY
-Sz
-Sz
-CS
-CS
-BZ
-mI
-lX
-cv
-lj
-VP
-Qk
-Qk
-lY
-lY
-lY
-lY
-lY
+Wr
+kH
+kN
+Xm
+fL
+ct
+ct
+Xm
+Xm
+kN
+kH
+Wr
+XN
+cq
+Yf
+Kv
+Kv
+PI
+PI
+PI
+PI
+PI
 zZ
 yg
 jU
@@ -106106,14 +106137,14 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -106304,33 +106335,33 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
 az
-az
-az
-az
-lX
-lX
-BZ
-yY
-FF
-FF
-LD
-FF
-yY
-BZ
-lX
-lX
-lY
-zr
-VP
-VP
-VP
-VP
-Nk
+Wr
+Wr
+kN
+QR
+YP
+YP
+FK
+YP
+QR
+kN
+Wr
+Wr
+PI
+XM
+Yf
+Yf
+Yf
+Yf
+NA
 zZ
 zZ
 zZ
@@ -106370,7 +106401,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -106542,6 +106573,15 @@ az
 az
 az
 az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -106552,42 +106592,33 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
 az
 az
+Gv
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+Gv
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-vl
-BZ
-BZ
-BZ
-BZ
-BZ
-BZ
-BZ
-BZ
-vl
-az
-lY
-lY
-Xq
-Aa
-fp
-Aa
-lY
+PI
+PI
+WK
+qj
+uP
+qj
+PI
 zZ
 zZ
 zZ
@@ -106620,7 +106651,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -106799,6 +106830,15 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+az
+az
+az
+jU
 az
 az
 az
@@ -106809,42 +106849,33 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-vl
-vl
-vl
-vl
-vl
-vl
-vl
-vl
-vl
-vl
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
 az
 Oi
-jZ
-JV
-HV
-HV
-HV
-lY
+OY
+iR
+Vc
+Vc
+Vc
+PI
 zZ
 zZ
 zZ
@@ -106877,13 +106908,13 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -107056,6 +107087,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -107063,8 +107095,7 @@ az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -107096,12 +107127,12 @@ Oi
 Oi
 az
 Oi
-lY
-rp
-jZ
-jZ
-jZ
-lY
+PI
+SR
+OY
+OY
+OY
+PI
 yg
 yg
 yg
@@ -107133,15 +107164,15 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
 az
+jU
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -107313,6 +107344,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -107320,8 +107352,7 @@ az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -107396,9 +107427,9 @@ az
 az
 az
 az
+jU
 az
-az
-az
+jU
 az
 az
 az
@@ -107570,6 +107601,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -107577,8 +107609,7 @@ az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -107653,6 +107684,9 @@ az
 az
 az
 az
+jU
+az
+jU
 az
 az
 az
@@ -107678,15 +107712,12 @@ az
 az
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -107827,7 +107858,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -107911,6 +107942,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -107934,10 +107967,8 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -108169,6 +108200,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -108190,13 +108223,11 @@ az
 az
 az
 az
+jU
+jU
 az
 az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -108427,6 +108458,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -108448,12 +108480,11 @@ az
 az
 az
 az
+jU
 az
 az
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -108604,9 +108635,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -108706,11 +108737,11 @@ az
 az
 az
 az
+jU
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -108860,7 +108891,10 @@ az
 az
 az
 az
+jU
+jU
 az
+jU
 az
 az
 az
@@ -108903,6 +108937,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -108934,6 +108971,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -108955,17 +108995,8 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -109117,8 +109148,10 @@ az
 az
 az
 az
+jU
 az
 az
+jU
 az
 az
 az
@@ -109161,6 +109194,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -109191,12 +109227,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -109374,7 +109405,10 @@ az
 az
 az
 az
+jU
 az
+jU
+jU
 az
 az
 az
@@ -109417,6 +109451,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -109446,6 +109483,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -109470,14 +109508,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -109631,6 +109662,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -109674,6 +109708,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -109703,6 +109740,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -109727,22 +109765,15 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -109934,6 +109965,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -109963,6 +109997,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -109987,18 +110022,14 @@ az
 az
 az
 az
+jU
+jU
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -110191,6 +110222,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -110221,10 +110255,7 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -110402,6 +110433,10 @@ az
 az
 az
 az
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -110444,6 +110479,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -110474,6 +110512,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -110498,15 +110537,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -110659,6 +110690,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -110703,6 +110736,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -110758,12 +110794,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -110915,6 +110946,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -110961,10 +110993,9 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -111172,6 +111203,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -111218,6 +111250,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -111278,13 +111313,9 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -111429,6 +111460,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -111473,6 +111507,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -111529,19 +111566,13 @@ az
 az
 az
 az
+jU
 az
+jU
+jU
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -111687,6 +111718,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -111730,6 +111764,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -111792,13 +111829,7 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -111942,6 +111973,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -112053,9 +112086,7 @@ az
 az
 az
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -112199,7 +112230,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -112312,7 +112343,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -112457,6 +112488,9 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
 az
@@ -112566,10 +112600,7 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -112717,6 +112748,8 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
@@ -112824,9 +112857,7 @@ az
 az
 az
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -114055,16 +114086,16 @@ az
 az
 az
 az
+jU
+az
+jU
+az
+jU
 az
 az
+jU
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -114311,18 +114342,18 @@ az
 az
 az
 az
+jU
+az
+az
+az
+az
+jU
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -114568,6 +114599,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -114578,8 +114610,7 @@ az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -114825,6 +114856,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -114835,8 +114867,7 @@ az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -115092,7 +115123,7 @@ az
 az
 az
 az
-az
+jU
 az
 az
 az
@@ -115339,6 +115370,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -115348,8 +115380,7 @@ az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -115597,6 +115628,7 @@ az
 az
 az
 az
+jU
 az
 az
 az
@@ -115605,8 +115637,7 @@ az
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -115855,15 +115886,15 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -116113,13 +116144,13 @@ az
 az
 az
 az
+jU
 az
 az
 az
 az
-az
-az
-az
+jU
+jU
 az
 az
 az
@@ -116371,10 +116402,10 @@ az
 az
 az
 az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -116890,8 +116921,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
@@ -117146,10 +117177,10 @@ az
 az
 az
 az
+jU
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -117402,12 +117433,12 @@ az
 az
 az
 az
+jU
+jU
 az
 az
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -117659,12 +117690,12 @@ az
 az
 az
 az
+jU
+jU
+jU
 az
 az
-az
-az
-az
-az
+jU
 az
 az
 az
@@ -117917,11 +117948,11 @@ az
 az
 az
 az
+jU
+jU
 az
 az
-az
-az
-az
+jU
 az
 az
 az
@@ -118948,13 +118979,13 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 az
 az
 az
@@ -119203,9 +119234,9 @@ az
 az
 az
 az
-az
-az
-az
+jU
+jU
+jU
 az
 az
 az
@@ -119460,10 +119491,10 @@ az
 az
 az
 az
+jU
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -119716,11 +119747,11 @@ az
 az
 az
 az
+jU
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -119973,11 +120004,11 @@ az
 az
 az
 az
+jU
 az
 az
 az
-az
-az
+jU
 az
 az
 az
@@ -120231,9 +120262,9 @@ az
 az
 az
 az
+jU
 az
-az
-az
+jU
 az
 az
 az
@@ -120489,8 +120520,8 @@ az
 az
 az
 az
-az
-az
+jU
+jU
 az
 az
 az
