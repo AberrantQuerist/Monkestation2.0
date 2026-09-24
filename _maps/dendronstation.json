@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"map_name": "Dendron Station",
+	"map_path": "map_files/DendronStation",
+	"map_file": "DendronStation.dmm",
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
+	"traits": [
+		{
+			"Up": true
+		},
+		{
+			"Down": true,
+			"Baseturf": "/turf/open/openspace"
+		}
+	],
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": [
+				"/area/station/service/bar",
+				"/area/station/commons/lounge"
+			]
+		},
+		"Barber": {
+			"total_positions": 0,
+			"spawn_positions": 0
+		}
+	}
+}
