@@ -2118,6 +2118,10 @@
 /obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
+"ji" = (
+/obj/effect/turf_decal/trimline/green/filled/line,
+/turf/open/floor/iron,
+/area/space)
 "jk" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -4899,6 +4903,12 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/service)
+"xf" = (
+/obj/effect/turf_decal/trimline/green/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "xg" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
@@ -6366,6 +6376,10 @@
 	},
 /turf/open/space/openspace,
 /area/space)
+"EM" = (
+/obj/effect/turf_decal/trimline/green/filled/corner,
+/turf/open/floor/iron,
+/area/space)
 "EQ" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 5
@@ -7017,6 +7031,12 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/commons/lounge)
+"HT" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/space)
 "HU" = (
 /obj/machinery/dna_infuser,
 /obj/effect/turf_decal/tile/dark_green/fourcorners,
@@ -9777,6 +9797,12 @@
 /obj/machinery/chem_dispenser/drinks/beer,
 /turf/open/floor/iron,
 /area/station/service/bar)
+"VY" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/space)
 "Wb" = (
 /obj/machinery/airalarm/directional/west,
 /obj/effect/spawner/random/food_or_drink/donkpockets_single,
@@ -43006,9 +43032,9 @@ Oi
 Oi
 Oi
 Oi
-Oi
-Oi
-Oi
+zZ
+zZ
+zZ
 Oi
 Oi
 Oi
@@ -43263,9 +43289,9 @@ Oi
 Oi
 Oi
 Oi
-Oi
-Oi
-Oi
+zZ
+zZ
+zZ
 Oi
 Oi
 Oi
@@ -43520,9 +43546,9 @@ Oi
 Oi
 Oi
 Oi
-Oi
-Oi
-Oi
+zZ
+zZ
+zZ
 Oi
 Oi
 Oi
@@ -43777,9 +43803,9 @@ Oi
 Oi
 Oi
 Oi
-Oi
-Oi
-Oi
+zZ
+zZ
+zZ
 Oi
 Oi
 Oi
@@ -44034,9 +44060,9 @@ Oi
 Oi
 Oi
 Oi
-Oi
-Oi
-Oi
+zZ
+zZ
+zZ
 Oi
 Oi
 Oi
@@ -105959,23 +105985,23 @@ jU
 jU
 jU
 jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
+EM
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
 XS
 XS
 XS
@@ -106216,7 +106242,7 @@ jU
 jU
 jU
 jU
-jU
+ji
 eQ
 eQ
 eQ
@@ -106230,9 +106256,9 @@ jo
 jo
 jo
 Ph
-jU
-jU
-jU
+bC
+bC
+bC
 LT
 LT
 LT
@@ -106472,8 +106498,8 @@ yg
 yg
 jU
 jU
-jU
-jU
+EM
+VY
 eQ
 Zg
 OC
@@ -106488,8 +106514,8 @@ nX
 zR
 Ph
 yg
-yg
 zZ
+yg
 LT
 ud
 cw
@@ -106729,7 +106755,7 @@ KG
 kL
 jU
 jU
-jU
+ji
 eQ
 eQ
 Zg
@@ -106986,7 +107012,7 @@ KG
 kL
 jU
 jU
-jU
+ji
 eQ
 nC
 OC
@@ -107243,7 +107269,7 @@ KG
 kL
 jU
 jU
-jU
+ji
 Zj
 Gt
 Gt
@@ -107500,7 +107526,7 @@ KG
 MK
 jU
 jU
-jU
+ji
 Zj
 Gt
 Gt
@@ -107757,7 +107783,7 @@ KG
 kL
 jU
 jU
-jU
+ji
 eQ
 qa
 OC
@@ -108014,7 +108040,7 @@ KG
 kL
 jU
 jU
-jU
+ji
 eQ
 eQ
 Cm
@@ -108271,8 +108297,8 @@ KG
 kL
 jU
 jU
-jU
-jU
+ji
+bC
 eQ
 aW
 Vc
@@ -108528,8 +108554,8 @@ yg
 yg
 jU
 jU
-jU
-jU
+ji
+bC
 eQ
 WD
 iZ
@@ -108785,8 +108811,8 @@ yg
 jU
 jU
 jU
-jU
-jU
+ji
+bC
 eQ
 eQ
 eQ
@@ -109042,7 +109068,7 @@ yg
 yg
 jU
 jU
-jU
+ji
 yg
 yg
 eQ
@@ -109299,7 +109325,7 @@ kN
 In
 jU
 jU
-jU
+ji
 yg
 zZ
 eQ
@@ -109556,7 +109582,7 @@ kN
 yg
 jU
 jU
-jU
+ji
 yg
 zZ
 eQ
@@ -109813,7 +109839,7 @@ CY
 yg
 jU
 jU
-jU
+ji
 yg
 zZ
 eQ
@@ -110070,7 +110096,7 @@ yg
 yg
 jU
 jU
-jU
+ji
 yg
 zZ
 eQ
@@ -110327,7 +110353,7 @@ az
 az
 jU
 jU
-jU
+ji
 yg
 zZ
 eQ
@@ -110584,7 +110610,7 @@ az
 az
 jU
 jU
-jU
+ji
 yg
 zZ
 eQ
@@ -110841,7 +110867,7 @@ az
 az
 jU
 jU
-jU
+ji
 yg
 zZ
 eQ
@@ -111098,7 +111124,7 @@ az
 az
 jU
 jU
-jU
+ji
 yg
 zZ
 zZ
@@ -111355,7 +111381,7 @@ az
 az
 jU
 jU
-jU
+ji
 yg
 yg
 yg
@@ -111370,9 +111396,9 @@ eQ
 yg
 zZ
 yg
-jU
-jU
-jU
+bC
+bC
+bC
 yg
 yg
 yg
@@ -111612,28 +111638,28 @@ az
 az
 jU
 jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
+xf
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+lE
+HT
 om
 JZ
 JZ
@@ -111890,7 +111916,7 @@ jU
 jU
 jU
 jU
-jU
+xf
 lE
 lE
 lE
