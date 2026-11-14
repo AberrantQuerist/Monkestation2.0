@@ -16,6 +16,14 @@
 	limited_stock = 1 //please don't spam deadchat
 	surplus = 5
 
+/datum/uplink_item/role_restricted/bookworm
+	name = "Bookworm Injector"
+	desc = "An injector for a symbiotic brainworm which can grant its user the ability to weaponize LANGUAGE ITSELF. The creature inside is only partially sapient. \
+	Not to be confused with a cortical borer."
+	item = /obj/item/implant/bookworm
+	cost = 12
+	restricted_roles = list(JOB_CURATOR)
+
 /datum/uplink_item/role_restricted/bureaucratic_error_remote
 	name = "Organic Resources Disturbance Inducer"
 	desc = "A device that raises hell in organic resources indirectly. Single use."
